@@ -36,4 +36,4 @@ jobs:
         with:
           branch: gh-pages
           folder: dist/storybook
-          # target-folder: .
+          target-folder: .
