@@ -2,6 +2,8 @@
 
 # Amsterdam Design System
 
+## DIT IS DE AANGEPASTE VERSIE
+
 ## Wat is het
 
 Het Amsterdam Design System is dé bibliotheek voor de gebruikersinterface (UI) van onze digitale producten en diensten. Het biedt herbruikbare componenten, patronen en gidsen voor teams die werken aan websites en applicaties. Zo werkt iedereen sneller en beter samen, met meer tijd om waarde te creëren. Voor de Amsterdammer zien al onze kanalen er hetzelfde uit, werken ze vergelijkbaar, zijn ze breed toegankelijk en roepen ze vertrouwen op. Voor onszelf wordt het gemakkelijker om alle software die we maken, inkopen en gebruiken in lijn te houden met onze huisstijl.
