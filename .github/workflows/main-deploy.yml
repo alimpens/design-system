@@ -36,5 +36,4 @@ jobs:
         with:
           branch: gh-pages
           folder: dist/storybook
-          clean-exclude: |
-            demo-*
+          clean-exclude: demo-*
