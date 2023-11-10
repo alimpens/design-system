@@ -2,7 +2,7 @@
 
 # Amsterdam Design System
 
-## DIT IS DE AANGEPASTE VERSIE
+## TEST 2
 
 ## Wat is het
 
