@@ -2,7 +2,7 @@
 
 # Amsterdam Design System
 
-## TEST 3 NOG EEN KEER
+## TEST 3
 
 ## Wat is het
 
