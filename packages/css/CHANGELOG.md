@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@0.2.2...@aram-limpens/design-system-css@0.2.3) (2023-11-17)
+
+### Bug Fixes
+
+* testula ([8bbfead](https://github.com/alimpens/design-system/commit/8bbfeadca14b0d696cc179b5cb433fd132cf5bad))
+
 ## [0.2.2](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@0.2.1...@aram-limpens/design-system-css@0.2.2) (2023-11-17)
 
 ### Bug Fixes
