@@ -21,7 +21,7 @@
     "directory": "proprietary/react-icons"
   },
   "publishConfig": {
-    "@aram-limpens:registry": "https://npm.pkg.github.com/aram-limpens"
+    "access": "public"
   },
   "scripts": {
     "clean": "rimraf src && rimraf dist",
@@ -41,5 +41,6 @@
   "peerDependencies": {
     "react": "16 - 18",
     "react-dom": "16 - 18"
-  }
+  },
+  "gitHead": "5f9cb2aa4bd7b1ce685cc9cb88e935b708fd9847"
 }
