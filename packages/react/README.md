@@ -2,6 +2,8 @@
 
 # Component library for React apps
 
+MAJOR RELEASE TEST
+
 The `@aram-limpens/design-system-react` package contains React implementations of various components. You can use this package in React apps.
 
 The design tokens and css used in these components are published in separate npm packages, so don't forget to install and include `@aram-limpens/design-system-tokens` and `@aram-limpens/design-system-css` too.
