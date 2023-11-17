@@ -3,18 +3,18 @@
   "author": "Community for NL Design System",
   "description": "React component library bundle for the City of Amsterdam based on the NL Design System architecture",
   "license": "EUPL-1.2",
-  "name": "@amsterdam/design-system-react",
+  "name": "@aram-limpens/design-system-react",
   "keywords": [
     "nl-design-system"
   ],
   "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Amsterdam/design-system.git",
+    "url": "https://github.com/alimpens/design-system.git",
     "directory": "packages/react"
+  },
+  "publishConfig": {
+    "@aram-limpens:registry": "https://npm.pkg.github.com/aram-limpens"
   },
   "sideEffects": false,
   "scripts": {

@@ -3,14 +3,11 @@
   "author": "Community for NL Design System",
   "description": "React icon components for the City of Amsterdam",
   "license": "SEE LICENSE IN LICENSE.md",
-  "name": "@amsterdam/design-system-react-icons",
+  "name": "@aram-limpens/design-system-react-icons",
   "keywords": [
     "nl-design-system"
   ],
   "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -20,8 +17,11 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Amsterdam/design-system.git",
+    "url": "https://github.com/alimpens/design-system.git",
     "directory": "proprietary/react-icons"
+  },
+  "publishConfig": {
+    "@aram-limpens:registry": "https://npm.pkg.github.com/aram-limpens"
   },
   "scripts": {
     "clean": "rimraf src && rimraf dist",
