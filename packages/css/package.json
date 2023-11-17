@@ -14,7 +14,7 @@
     "directory": "packages/css"
   },
   "publishConfig": {
-    "@aram-limpens:registry": "https://npm.pkg.github.com/aram-limpens"
+    "access": "public"
   },
   "scripts": {
     "build": "sass src/:dist/ --style=compressed",
@@ -22,10 +22,11 @@
     "clean": "rimraf dist/"
   },
   "devDependencies": {
-    "@aram-limpens/design-system-tokens": "workspace:*",
+    "@aram-limpens/design-system-tokens": "0.3.0",
     "sass": "1.69.5"
   },
   "dependencies": {
     "@utrecht/components": "1.0.1-alpha.1"
-  }
+  },
+  "gitHead": "6179e6ef4befa086baafa4444541af0072c7645a"
 }
