@@ -23,7 +23,8 @@
     "clean": "rimraf dist/",
     "lint": "tsc --project ./tsconfig.json --noEmit && tsc --noEmit --project ./tsconfig.test.json",
     "test": "jest --verbose",
-    "watch:test": "jest --verbose --watch"
+    "watch:test": "jest --verbose --watch",
+    "first": "lerna publish 1.0.0"
   },
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
