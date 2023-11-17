@@ -2,7 +2,7 @@
 
 # Component library for React apps
 
-TWEEDE MAJOR RELEASE ECHT
+DERDE MAJOR RELEASE ECHT
 
 The `@aram-limpens/design-system-react` package contains React implementations of various components. You can use this package in React apps.
 
