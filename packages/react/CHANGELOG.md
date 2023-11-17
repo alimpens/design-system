@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-react@2.1.0...@aram-limpens/design-system-react@2.2.0) (2023-11-17)
+
+### Features
+
+* add more stuff ([0ab446a](https://github.com/alimpens/design-system/commit/0ab446a7c0ea70f3b0017381bda0700bbe214c33))
+
 # [2.1.0](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-react@2.0.1...@aram-limpens/design-system-react@2.1.0) (2023-11-17)
 
 ### Features
