@@ -2,7 +2,7 @@
 
 # Component library for React apps
 
-MAJOR RELEASE TEST
+MAJOR RELEASE
 
 The `@aram-limpens/design-system-react` package contains React implementations of various components. You can use this package in React apps.
 
