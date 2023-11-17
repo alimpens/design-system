@@ -3,7 +3,7 @@
  * Copyright (c) 2023 Gemeente Amsterdam
  */
 
-import { ChevronRightIcon } from '@amsterdam/design-system-react-icons'
+import { ChevronRightIcon } from '@aram-limpens/design-system-react-icons'
 import clsx from 'clsx'
 import { AnchorHTMLAttributes, ForwardedRef, forwardRef, PropsWithChildren } from 'react'
 import { Icon } from '../Icon/Icon'

@@ -3,7 +3,7 @@
  * Copyright (c) 2023 Gemeente Amsterdam
  */
 
-import { ChevronDownIcon } from '@amsterdam/design-system-react-icons'
+import { ChevronDownIcon } from '@aram-limpens/design-system-react-icons'
 import clsx from 'clsx'
 import { ForwardedRef, forwardRef, HTMLAttributes, PropsWithChildren, useContext, useId, useState } from 'react'
 import AccordionContext from './AccordionContext'

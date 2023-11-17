@@ -3,7 +3,7 @@
  * Copyright (c) 2023 Gemeente Amsterdam
  */
 
-import { Checkbox } from '@amsterdam/design-system-react'
+import { Checkbox } from '@aram-limpens/design-system-react'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {

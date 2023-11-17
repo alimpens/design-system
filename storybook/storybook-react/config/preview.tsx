@@ -1,6 +1,6 @@
-import '@amsterdam/design-system-tokens/dist/root.css'
-import '@amsterdam/design-system-assets/font/index.css'
-import '@amsterdam/design-system-css/dist/index.css'
+import '@aram-limpens/design-system-tokens/dist/root.css'
+import '@aram-limpens/design-system-assets/font/index.css'
+import '@aram-limpens/design-system-css/dist/index.css'
 import { viewports } from './viewports'
 
 export const parameters = {

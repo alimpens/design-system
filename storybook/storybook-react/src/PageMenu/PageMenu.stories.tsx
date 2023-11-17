@@ -3,8 +3,8 @@
  * Copyright (c) 2023 Gemeente Amsterdam
  */
 
-import { PageMenu } from '@amsterdam/design-system-react'
-import { LoginIcon, MenuIcon } from '@amsterdam/design-system-react-icons'
+import { PageMenu } from '@aram-limpens/design-system-react'
+import { LoginIcon, MenuIcon } from '@aram-limpens/design-system-react-icons'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {

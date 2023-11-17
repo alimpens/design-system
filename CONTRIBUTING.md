@@ -19,7 +19,7 @@ Currently, you can find the most up-to-date documentation on design and UX on [a
 
 If you want to add a component, first check if it's already included in the [Design System's Figma](<https://www.figma.com/file/ORa7CBIooPgZj6HsEPBxNR/Design-bibliotheek-(gepubliceerd)?node-id=149%3A1324&t=Ud6eZytawJYnLlyi-0>).
 
-If there is no design, or if you have questions about an existing design, please contact <designsystem@amsterdam.nl>.
+If there is no design, or if you have questions about an existing design, please contact <designsystem@aram-limpens.nl>.
 
 ## Install prerequisites
 
@@ -68,8 +68,8 @@ If you need to link your local version of this library (to test your unpublished
 - Go to the root directory of the packages you want to link to (i.e. where its package.json is)
 - Run `npm link`. Do this for all packages you want to link.
 - Go to the root of the project in which you want to consume the packages
-- Run `npm link <package-name>`. If you want to link multiple packages, seperate the package names with a space. For example: `npm link @amsterdam/design-system-tokens @amsterdam/design-system-assets @amsterdam/design-system-react @amsterdam/design-system-react-icons`. Be careful: you have to link all packages in the same namespace together. Doing it one at a time will only link the last one. <!-- TODO: is there a workaround for this? -->
-- Sometimes the local link is severed. Run `npm link @amsterdam/...` again if this happens.
+- Run `npm link <package-name>`. If you want to link multiple packages, seperate the package names with a space. For example: `npm link @aram-limpens/design-system-tokens @aram-limpens/design-system-assets @aram-limpens/design-system-react @aram-limpens/design-system-react-icons`. Be careful: you have to link all packages in the same namespace together. Doing it one at a time will only link the last one. <!-- TODO: is there a workaround for this? -->
+- Sometimes the local link is severed. Run `npm link @aram-limpens/...` again if this happens.
 
 ## Licensing
 
@@ -113,7 +113,7 @@ This will create files for the design tokens, CSS and React components, and Reac
 
 ## Publishing
 
-You can only publish if you have access to the `@amsterdam` group on NPM. If you want to have rights to publish as well, contact one of the [maintainers](./documentation/maintainers.md). To publish these packages to NPM, follow these steps:
+You can only publish if you have access to the `@aram-limpens` group on NPM. If you want to have rights to publish as well, contact one of the [maintainers](./documentation/maintainers.md). To publish these packages to NPM, follow these steps:
 
 1. Pull in the latest version of the `main` branch locally
 2. Make sure you're logged in to NPM, by running `npm login`

@@ -16,4 +16,4 @@ Lettertypes die worden gebruikt voor de huisstijl zijn niet allemaal gratis en o
 
 ## Toestemming
 
-Wanneer je het logo of de huisstijl wilt gebruiken kun je voor toestemming contact opnemen met <designsystem@amsterdam.nl>.
+Wanneer je het logo of de huisstijl wilt gebruiken kun je voor toestemming contact opnemen met <designsystem@aram-limpens.nl>.

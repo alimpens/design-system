@@ -16,7 +16,7 @@ Die componenten maken we beschikbaar in diverse bibliotheken zodat ontwerpers en
 
 ### Figma
 
-[Hier vind je onze Figma Library](https://www.figma.com/file/9IGm6IdPUYizBNGsUnueBd/Amsterdam-Design-System?type=design&node-id=2927%3A29177&mode=design&t=6KlrHnKkHU2uZ9s9-1) (maak eventueel een account aan op je @amsterdam.nl adres). Diverse componenten en tekststijlen zijn nu al bruikbaar in je eigen ontwerpen. Een aantal andere zijn in de laatste fase van review. Raadpleeg de legenda op het voorblad.
+[Hier vind je onze Figma Library](https://www.figma.com/file/9IGm6IdPUYizBNGsUnueBd/Amsterdam-Design-System?type=design&node-id=2927%3A29177&mode=design&t=6KlrHnKkHU2uZ9s9-1) (maak eventueel een account aan op je @aram-limpens.nl adres). Diverse componenten en tekststijlen zijn nu al bruikbaar in je eigen ontwerpen. Een aantal andere zijn in de laatste fase van review. Raadpleeg de legenda op het voorblad.
 
 ### React
 
@@ -64,7 +64,7 @@ Voor een overzicht van wat er nieuw is ben je van harte welkom op onze vier-weke
 
 Wil je weten hoe het design system je kan helpen? Vragen over onze werkwijze of suggesties voor de roadmap? Laat het weten, we denken graag met je mee.
 
-Per e-mail neem je contact op via <designsystem@amsterdam.nl>.
+Per e-mail neem je contact op via <designsystem@aram-limpens.nl>.
 
 Het huidige team:
 Aram Limpens,

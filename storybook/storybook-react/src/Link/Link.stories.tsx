@@ -3,8 +3,8 @@
  * Copyright (c) 2023 Gemeente Amsterdam
  */
 
-import { Link, Paragraph } from '@amsterdam/design-system-react'
-import * as Icons from '@amsterdam/design-system-react-icons'
+import { Link, Paragraph } from '@aram-limpens/design-system-react'
+import * as Icons from '@aram-limpens/design-system-react-icons'
 import type { Meta, StoryObj } from '@storybook/react'
 
 type Story = StoryObj<typeof Link>

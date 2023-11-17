@@ -1,5 +1,5 @@
-import '@amsterdam/design-system-tokens/dist/root.css'
-import '@amsterdam/design-system-assets/font/index.css'
+import '@aram-limpens/design-system-tokens/dist/root.css'
+import '@aram-limpens/design-system-assets/font/index.css'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },

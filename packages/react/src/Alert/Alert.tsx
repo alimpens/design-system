@@ -3,7 +3,7 @@
  * Copyright (c) 2023 Gemeente Amsterdam
  */
 
-import { AlertIcon, CheckmarkIcon, CloseIcon } from '@amsterdam/design-system-react-icons'
+import { AlertIcon, CheckmarkIcon, CloseIcon } from '@aram-limpens/design-system-react-icons'
 import clsx from 'clsx'
 import { ForwardedRef, forwardRef, HTMLAttributes, PropsWithChildren, useMemo } from 'react'
 import { Icon } from '../Icon'

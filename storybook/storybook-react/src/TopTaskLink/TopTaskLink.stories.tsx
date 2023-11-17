@@ -3,10 +3,10 @@
  * Copyright (c) 2023 Gemeente Amsterdam
  */
 
-import { Grid, TopTaskLink } from '@amsterdam/design-system-react'
+import { Grid, TopTaskLink } from '@aram-limpens/design-system-react'
 import { Meta, StoryObj } from '@storybook/react'
 
-import '@amsterdam/design-system-css/src/top-task-link/top-task-link.scss'
+import '@aram-limpens/design-system-css/src/top-task-link/top-task-link.scss'
 
 const meta = {
   title: 'Navigation/Top Task Link',

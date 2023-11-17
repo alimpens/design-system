@@ -12,7 +12,7 @@ import {
   Paragraph,
   UnorderedList,
   VisuallyHidden,
-} from '@amsterdam/design-system-react'
+} from '@aram-limpens/design-system-react'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {
@@ -42,7 +42,7 @@ export const Default: Story = {
               </Paragraph>
               <UnorderedList markers={false}>
                 <li>
-                  <Link href="mailto:redactie.os@amsterdam.nl" variant="inList" onBackground="dark">
+                  <Link href="mailto:redactie.os@aram-limpens.nl" variant="inList" onBackground="dark">
                     E-mail
                   </Link>
                 </li>

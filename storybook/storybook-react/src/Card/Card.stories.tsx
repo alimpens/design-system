@@ -3,7 +3,7 @@
  * Copyright (c) 2023 Gemeente Amsterdam
  */
 
-import { AspectRatio, Card, Heading, Paragraph } from '@amsterdam/design-system-react'
+import { AspectRatio, Card, Heading, Paragraph } from '@aram-limpens/design-system-react'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {
