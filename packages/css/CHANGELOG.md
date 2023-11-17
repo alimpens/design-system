@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **design-system-css:** test of 'ie 2 wil updaten, of 1 ([0e93a84](https://github.com/alimpens/design-system/commit/0e93a847d507da362bcb7ac2f3fd90c0efc8465d))
+* **design-system-css:** test of 'ie 2 wil updaten, of 1 DIT IS LATER HANDMATIG TOEGEVOEGD ([0e93a84](https://github.com/alimpens/design-system/commit/0e93a847d507da362bcb7ac2f3fd90c0efc8465d))
 
 ## [0.2.1](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@0.2.0...@aram-limpens/design-system-css@0.2.1) (2023-11-17)
 
