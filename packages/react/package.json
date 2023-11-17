@@ -24,7 +24,7 @@
     "lint": "tsc --project ./tsconfig.json --noEmit && tsc --noEmit --project ./tsconfig.test.json",
     "test": "jest --verbose",
     "watch:test": "jest --verbose --watch",
-    "first": "lerna publish 1.0.0"
+    "first": "lerna version 1.0.0 --no-private"
   },
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
