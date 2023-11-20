@@ -55,8 +55,8 @@ importers:
         specifier: 7.33.2
         version: 7.33.2(eslint@8.53.0)
       html-validate:
-        specifier: 8.7.0
-        version: 8.7.0
+        specifier: 8.7.2
+        version: 8.7.2
       husky:
         specifier: 8.0.3
         version: 8.0.3
@@ -10059,8 +10059,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /html-validate@8.7.0:
-    resolution: {integrity: sha512-fsDHUxzVNzXzV2KpPOx5GbGRCK0cFs7a8+9jE5QTyYUGAlm1PNGst8Vi0U7hSmootkCBxY3bu7LgQBjjZDeBPw==}
+  /html-validate@8.7.2:
+    resolution: {integrity: sha512-0UD3VO0LBoavvmRcevf8uQ8UZGqh4moc1Stwvh0+rPsvax/PNs1mFA+3gb63zRShxrV24D8Mioj1EvLJj7Kq4g==}
     engines: {node: '>= 16.0'}
     hasBin: true
     peerDependencies:
@@ -10084,7 +10084,7 @@ packages:
       ajv: 8.12.0
       deepmerge: 4.3.1
       glob: 10.3.10
-      ignore: 5.2.4
+      ignore: 5.3.0
       kleur: 4.1.5
       minimist: 1.2.8
       prompts: 2.4.2
@@ -10255,6 +10255,11 @@ packages:
 
   /ignore@5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
+    engines: {node: '>= 4'}
+    dev: true
+
+  /ignore@5.3.0:
+    resolution: {integrity: sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==}
     engines: {node: '>= 4'}
     dev: true
 
