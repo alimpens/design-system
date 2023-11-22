@@ -125,7 +125,6 @@ You can only publish if you have access to the `@aram-limpens` group on NPM. If 
    1. `git checkout main`
    2. `git merge --ff-only develop`
    3. `git push`
-8. Create a GitHub release. TODO: how?
 
 ## Cooperation with NL Design System
 
