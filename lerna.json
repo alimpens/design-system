@@ -6,7 +6,6 @@
     "publish": {},
     "version": {
       "allowBranch": ["main"],
-      "changelogPreset": "conventional-changelog-conventionalcommits",
       "conventionalCommits": true,
       "exact": true,
       "private": false,
