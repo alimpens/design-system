@@ -3,9 +3,7 @@
   "npmClient": "pnpm",
   "version": "independent",
   "command": {
-    "publish": {
-      "yes": true
-    },
+    "publish": {},
     "version": {
       "allowBranch": ["develop"],
       "changelogPreset": {
