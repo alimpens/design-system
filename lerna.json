@@ -9,8 +9,7 @@
       "conventionalCommits": true,
       "exact": true,
       "private": false,
-      "syncWorkspaceLock": true,
-      "useWorkspaces": true
+      "syncWorkspaceLock": true
     }
   }
 }
