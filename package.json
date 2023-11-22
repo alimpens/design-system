@@ -69,7 +69,7 @@
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "publish": "lerna publish from-package --yes",
-    "release": "lerna version --changelog-preset conventionalcommits",
+    "release": "lerna version --create-release github",
     "start": "node_modules/http-server/bin storybook/storybook-react/dist/",
     "storybook": "npm-run-all --parallel watch:**",
     "test": "npm run test-workspaces",
