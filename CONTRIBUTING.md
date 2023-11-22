@@ -115,12 +115,17 @@ This will create files for the design tokens, CSS and React components, and Reac
 
 You can only publish if you have access to the `@aram-limpens` group on NPM. If you want to have rights to publish as well, contact one of the [maintainers](./documentation/maintainers.md). To publish these packages to NPM, follow these steps:
 
-1. Pull in the latest version of the `main` branch locally
+1. Pull in the latest version of the `develop` branch locally
 2. Make sure you're logged in to NPM, by running `npm login`
 3. Run `npm run clean`
 4. Run `npm run build`
 5. Run `npm run release`
 6. Run `npm run publish`
+7. Merge the `develop` branch into `main` from your cli:
+   1. `git checkout main`
+   2. `git merge --ff-only develop`
+   3. `git push`
+8. Create a GitHub release. TODO: how?
 
 ## Cooperation with NL Design System
 
