@@ -20,7 +20,7 @@
     "optimize-icons": "svgo -f icons"
   },
   "devDependencies": {
-    "svgo": "3.0.2"
+    "svgo": "3.0.4"
   },
   "gitHead": "6179e6ef4befa086baafa4444541af0072c7645a"
 }

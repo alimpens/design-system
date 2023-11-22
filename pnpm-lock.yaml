@@ -231,8 +231,8 @@ importers:
   proprietary/assets:
     devDependencies:
       svgo:
-        specifier: 3.0.2
-        version: 3.0.2
+        specifier: 3.0.4
+        version: 3.0.4
 
   proprietary/react-icons:
     dependencies:
@@ -5164,7 +5164,7 @@ packages:
       '@svgr/core': 8.1.0(typescript@5.2.2)
       cosmiconfig: 8.3.6(typescript@5.2.2)
       deepmerge: 4.3.1
-      svgo: 3.0.2
+      svgo: 3.0.4
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -15524,14 +15524,16 @@ packages:
     resolution: {integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==}
     dev: true
 
-  /svgo@3.0.2:
-    resolution: {integrity: sha512-Z706C1U2pb1+JGP48fbazf3KxHrWOsLme6Rv7imFBn5EnuanDW1GPaA/P1/dvObE670JDePC3mnj0k0B7P0jjQ==}
+  /svgo@3.0.4:
+    resolution: {integrity: sha512-T+Xul3JwuJ6VGXKo/p2ndqx1ibxNKnLTvRc1ZTWKCfyKS/GgNjRZcYsK84fxTsy/izr91g/Rwx6fGnVgaFSI5g==}
     engines: {node: '>=14.0.0'}
+    hasBin: true
     dependencies:
       '@trysound/sax': 0.2.0
       commander: 7.2.0
       css-select: 5.1.0
       css-tree: 2.3.1
+      css-what: 6.1.0
       csso: 5.0.5
       picocolors: 1.0.0
     dev: true
