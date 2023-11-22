@@ -2,13 +2,14 @@
   "$schema": "node_modules/@lerna-lite/cli/schemas/lerna-schema.json",
   "npmClient": "pnpm",
   "version": "independent",
-  "useWorkspaces": true,
   "command": {
     "publish": {},
     "version": {
       "allowBranch": ["main"],
+      "changelogPreset": "conventionalcommits",
       "conventionalCommits": true,
       "exact": true,
+      "private": false,
       "syncWorkspaceLock": true
     }
   }
