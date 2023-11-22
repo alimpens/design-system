@@ -6,10 +6,6 @@
     "publish": {},
     "version": {
       "allowBranch": ["main"],
-      "changelogPreset": {
-        "name": "conventionalcommits",
-        "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}"
-      },
       "conventionalCommits": true,
       "exact": true,
       "private": false,
