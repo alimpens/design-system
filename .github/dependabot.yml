@@ -13,3 +13,7 @@ updates:
       interval: "daily"
     versioning-strategy: "increase-if-necessary"
     open-pull-requests-limit: 20
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
