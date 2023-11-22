@@ -2,7 +2,8 @@
 
 # Component library for React apps
 
-TEST 2
+
+CHANGE
 
 The `@aram-limpens/design-system-react` package contains React implementations of various components. You can use this package in React apps.
 
