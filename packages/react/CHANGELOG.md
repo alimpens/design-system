@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.1](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-react@6.0.0...@aram-limpens/design-system-react@6.0.1) (2023-11-22)
+
+
+### Bug Fixes
+
+* TEst ([#72](https://github.com/alimpens/design-system/issues/72)) ([c3c4a36](https://github.com/alimpens/design-system/commit/c3c4a360a97010ad7bd256c9d9aa7fe546755b95))
+
+
+
 ## [6.0.0](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-react@4.0.0...@aram-limpens/design-system-react@6.0.0) (2023-11-22)
 
 
