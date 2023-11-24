@@ -3,21 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@2.1.2...@aram-limpens/design-system-css@3.0.0) (2023-11-24)
+
+### ⚠ BREAKING CHANGES
+
+* Change alert color (#77)
+
+### Features
+
+* Change alert color ([#77](https://github.com/alimpens/design-system/issues/77)) ([f3b41c9](https://github.com/alimpens/design-system/commit/f3b41c98047ff3a1665a5d42003bec4c4aa3840a))
+
 ## [2.1.2](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@2.1.0...@aram-limpens/design-system-css@2.1.2) (2023-11-22)
 
 **Note:** Version bump only for package @aram-limpens/design-system-css
 
-
-
-
-
 ## [2.1.1](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@2.1.0...@aram-limpens/design-system-css@2.1.1) (2023-11-22)
 
 **Note:** Version bump only for package @aram-limpens/design-system-css
-
-
-
-
 
 # [2.1.0](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@2.0.1...@aram-limpens/design-system-css@2.1.0) (2023-11-17)
 
