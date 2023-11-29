@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.3](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@3.0.2...@aram-limpens/design-system-css@3.0.3) (2023-11-29)
+
+### Bug Fixes
+
+* Testula ([#87](https://github.com/alimpens/design-system/issues/87)) ([a523678](https://github.com/alimpens/design-system/commit/a523678b106d6656c4471d5ea5fd5fb5d180f3f8))
+
 ## [3.0.2](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@3.0.0...@aram-limpens/design-system-css@3.0.2) (2023-11-27)
 
 **Note:** Version bump only for package @aram-limpens/design-system-css
