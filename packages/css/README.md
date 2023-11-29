@@ -2,7 +2,7 @@
 
 # CSS Components
 
-TEST OF JE REFACTOR KAN GEBRUIKEN
+TEST OF JE REFACTOR KAN GEBRUIKEN 2
 
 CSS components are developed using BEM class names and the stylesheets can be included in your page side-effect free. Apply the class names to your elements to make them stylable using design tokens.
 
