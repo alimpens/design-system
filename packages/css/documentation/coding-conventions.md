@@ -1,5 +1,7 @@
 # Coding Conventions
 
+TEST
+
 ## Where to put properties for various states
 
 The declaration block for the pseudo-class name only lists the properties for which the value changes in the related state. Properties that remain unchanged in all other states are part of the declaration block for the general class name, even if they don’t affect the element’s initial state.
