@@ -6,7 +6,7 @@
   "command": {
     "publish": {},
     "version": {
-      "allowBranch": ["develop"],
+      "allowBranch": ["main"],
       "changelogPreset": {
         "name": "conventionalcommits",
         "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}"
