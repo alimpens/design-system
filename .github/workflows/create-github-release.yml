@@ -2,8 +2,7 @@ name: Create release
 
 on:
   push:
-    tags:
-      - \@aram-limpens/design-system-*
+    branches: [develop]
 
 permissions:
   contents: write
