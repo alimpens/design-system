@@ -14,13 +14,13 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v4
         with:
-          fetch-depth: "0"
+          fetch-depth: "0" # is dit nodig?
 
       - name: Set up Node.js version
         uses: actions/setup-node@v4
         with:
           node-version: "18.17.1"
-          registry-url: "https://registry.npmjs.org"
+          registry-url: "https://registry.npmjs.org" # is dit nodig?
 
       - uses: pnpm/action-setup@v2
         name: Install pnpm
@@ -50,7 +50,7 @@ jobs:
         run: |
           pnpm run --if-present build
 
-      - name: "Create a release and publish to npm"
+      - name: "Create a release and publish to npm" # hier gebeurt teveel. Losse tasks voor git config, release naar npm, release naar github?
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
