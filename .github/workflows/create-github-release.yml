@@ -3,7 +3,7 @@ name: Create release
 on:
   push:
     tags:
-      - v*
+      - @aram-limpens/design-system-*
 
 permissions:
   contents: write
