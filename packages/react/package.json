@@ -1,5 +1,5 @@
 {
-  "version": "7.0.3",
+  "version": "7.0.4",
   "author": "Community for NL Design System",
   "description": "React component library bundle for the City of Amsterdam based on the NL Design System architecture",
   "license": "EUPL-1.2",
@@ -33,7 +33,7 @@
     "dist/"
   ],
   "dependencies": {
-    "@aram-limpens/design-system-react-icons": "0.4.3",
+    "@aram-limpens/design-system-react-icons": "0.4.4",
     "@utrecht/component-library-react": "1.0.1",
     "clsx": "2.0.0",
     "date-fns": "2.30.0"
