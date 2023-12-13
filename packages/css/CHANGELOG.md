@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.12](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@3.0.11...@aram-limpens/design-system-css@3.0.12) (2023-12-13)
+
+**Note:** Version bump only for package @aram-limpens/design-system-css
+
 ## [3.0.11](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@3.0.10...@aram-limpens/design-system-css@3.0.11) (2023-12-13)
 
 **Note:** Version bump only for package @aram-limpens/design-system-css
