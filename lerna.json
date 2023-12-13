@@ -4,7 +4,9 @@
   "version": "independent",
   "useWorkspaces": true,
   "command": {
-    "publish": {},
+    "publish": {
+      "yes": true
+    },
     "version": {
       "allowBranch": ["main", "develop"],
       "changelogPreset": {
@@ -15,7 +17,8 @@
       "exact": true,
       "private": false,
       "skipBumpOnlyReleases": true,
-      "syncWorkspaceLock": true
+      "syncWorkspaceLock": true,
+      "yes": true
     }
   }
 }
