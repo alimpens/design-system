@@ -16,48 +16,48 @@ jobs:
         with:
           fetch-depth: "0"
 
-      - name: Set up Node.js version
-        uses: actions/setup-node@v4
-        with:
-          node-version: "18.17.1"
-          registry-url: "https://registry.npmjs.org"
+      # - name: Set up Node.js version
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: "18.17.1"
+      #     registry-url: "https://registry.npmjs.org"
 
-      - uses: pnpm/action-setup@v2
-        name: Install pnpm
-        id: pnpm-install
-        with:
-          version: 8
-          run_install: false
+      # - uses: pnpm/action-setup@v2
+      #   name: Install pnpm
+      #   id: pnpm-install
+      #   with:
+      #     version: 8
+      #     run_install: false
 
-      - name: Get pnpm store directory
-        id: pnpm-cache
-        run: |
-          echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
+      # - name: Get pnpm store directory
+      #   id: pnpm-cache
+      #   run: |
+      #     echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
 
-      - uses: actions/cache@v3
-        name: Setup pnpm cache
-        with:
-          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+      # - uses: actions/cache@v3
+      #   name: Setup pnpm cache
+      #   with:
+      #     path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
+      #     key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-pnpm-store-
 
-      - name: Install dependencies
-        run: |
-          pnpm install
+      # - name: Install dependencies
+      #   run: |
+      #     pnpm install
 
-      - name: "Continuous Integration: build"
-        run: |
-          pnpm run --if-present build
+      # - name: "Continuous Integration: build"
+      #   run: |
+      #     pnpm run --if-present build
 
-      - name: Configure CI Git User
-        run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor}}@users.noreply.github.com"
+      # - name: Configure CI Git User
+      #   run: |
+      #     git config user.name "${{ github.actor }}"
+      #     git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-      - name: "Create a release and publish to npm"
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          npm run release
-          npm run publish
+      # - name: "Create a release and publish to npm"
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #   run: |
+      #     npm run release
+      #     npm run publish
