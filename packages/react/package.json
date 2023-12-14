@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "@aram-limpens/design-system-react-icons": "0.4.6",
-    "@utrecht/component-library-react": "1.0.1",
+    "@utrecht/component-library-react": "3.0.0",
     "clsx": "2.0.0",
     "date-fns": "2.30.0"
   },
