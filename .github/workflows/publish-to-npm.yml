@@ -62,10 +62,9 @@ jobs:
           npm run release
           npm run publish
 
+      # TODO: werkt nog niet
       - name: Merge main -> develop
         run: |
-          git fetch
-          git checkout develop
-          git pull
-          git merge --ff-only main
-          git push
+          git switch develop
+          git merge origin/main --no-commit
+          git push origin develop
