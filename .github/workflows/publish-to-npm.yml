@@ -65,6 +65,8 @@ jobs:
       # TODO: werkt nog niet
       - name: Merge main -> develop
         run: |
-          git switch develop
-          git merge origin/main --no-commit
-          git push origin develop
+          git fetch
+          git checkout develop
+          git pull origin develop
+          git merge --ff-only origin/main
+          git push origin HEAD:main
