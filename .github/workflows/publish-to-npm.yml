@@ -61,10 +61,3 @@ jobs:
         run: |
           npm run release
           npm run publish
-
-      - name: Merge main -> develop
-        uses: devmasx/merge-branch@master
-        with:
-          type: now
-          target_branch: develop
-          github_token: ${{ secrets.GITHUB_TOKEN }}
