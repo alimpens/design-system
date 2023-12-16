@@ -1,13 +1,15 @@
 name: sync branches
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: [Publish to npm]
+    types: [completed]
+    branches: [main]
 
 jobs:
   sync-branches:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@master
 
