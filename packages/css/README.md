@@ -2,7 +2,7 @@
 
 # CSS Components
 
-TESTULA 17
+TESTULA 18
 
 CSS components are developed using BEM class names and the stylesheets can be included in your page side-effect free. Apply the class names to your elements to make them stylable using design tokens.
 
