@@ -64,7 +64,7 @@ jobs:
 
       - name: Merge main -> develop
         run: |
-          git fetch --unshallow
+          git fetch
           git checkout develop
           git pull
           git merge --ff-only main
