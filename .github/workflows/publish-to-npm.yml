@@ -62,7 +62,8 @@ jobs:
           npm run release
           npm run publish
 
-      # - name: Merge main -> develop
-      #   run: |
-      #     git checkout develop
-      #     git pull origin develop
+      - name: Merge main -> develop
+        run: |
+          git checkout develop
+          git pull origin develop
+          git merge --ff-only main
