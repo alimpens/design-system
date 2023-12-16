@@ -63,8 +63,10 @@ jobs:
           npm run publish
 
       - name: Merge main -> develop
+        uses: actions/checkout@v4
         run: |
+          git fetch --unshallow
           git checkout develop
-          git pull origin develop
+          git pull
           git merge --ff-only main
-          git push origin HEAD:main
+          git push
