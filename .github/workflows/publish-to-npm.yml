@@ -62,11 +62,9 @@ jobs:
           npm run release
           npm run publish
 
-      # TODO: werkt nog niet
       - name: Merge main -> develop
-        run: |
-          git fetch
-          git checkout develop
-          git pull origin develop
-          git merge --ff-only origin/main
-          git push origin HEAD:main
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          target_branch: develop
+          github_token: ${{ secrets.GITHUB_TOKEN }}
