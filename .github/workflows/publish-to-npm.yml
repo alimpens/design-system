@@ -67,4 +67,4 @@ jobs:
           git checkout develop
           git pull origin develop
           git merge --ff-only main
-           git push origin HEAD:main
+          git push origin HEAD:main
