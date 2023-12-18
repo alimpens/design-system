@@ -109,8 +109,8 @@ importers:
   packages/css:
     dependencies:
       '@utrecht/components':
-        specifier: 1.0.1-alpha.1
-        version: 1.0.1-alpha.1
+        specifier: 3.0.0
+        version: 3.0.0
     devDependencies:
       '@aram-limpens/design-system-tokens':
         specifier: 0.4.6
@@ -6081,8 +6081,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@utrecht/components@1.0.1-alpha.1:
-    resolution: {integrity: sha512-A9LpKoHmbbxqqtZtut1xZ2fgnj531Ig3qCVFjHGClunZCaIB6+9IJrwRXSxSsflG8SYCWJrysjl/FF1+mMU3WQ==}
+  /@utrecht/components@3.0.0:
+    resolution: {integrity: sha512-TO39Ti6Af50l+I2gt4S3iacGVuVoxBK/+G/bsK9wvii53fO35NYJul7xB98/IYSBmewaN4GtmyWGphVDdFMt1A==}
     dependencies:
       clsx: 1.2.1
     dev: false
