@@ -86,9 +86,6 @@
     "@lerna-lite/publish": "2.7.2",
     "@lerna-lite/run": "2.7.2",
     "@lerna-lite/version": "2.7.2",
-    "cross-env": "7.0.3",
-    "dotenv": "16.3.1",
-    "env-cmd": "10.1.0",
     "http-server": "14.1.1"
   }
 }
