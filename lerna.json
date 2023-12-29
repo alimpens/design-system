@@ -4,10 +4,9 @@
   "version": "independent",
   "useWorkspaces": true,
   "command": {
-    "publish": {
-      "yes": true
-    },
+    "publish": {},
     "version": {
+      "allowBranch": ["develop"],
       "changelogPreset": {
         "name": "conventionalcommits",
         "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}"
@@ -16,8 +15,7 @@
       "exact": true,
       "private": false,
       "skipBumpOnlyReleases": true,
-      "syncWorkspaceLock": true,
-      "yes": true
+      "syncWorkspaceLock": true
     }
   }
 }
