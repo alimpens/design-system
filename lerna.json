@@ -12,8 +12,8 @@
         "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}"
       },
       "conventionalCommits": true,
+      "createRelease": "github",
       "exact": true,
-      "githubRelease": true,
       "private": false,
       "skipBumpOnlyReleases": true,
       "syncWorkspaceLock": true
