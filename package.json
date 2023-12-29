@@ -64,7 +64,7 @@
     "plop": "plop",
     "prepare": "husky install",
     "prettier": "prettier --write .",
-    "publish": "lerna publish from-package",
+    "publish": "lerna publish from-package --yes",
     "release": "lerna version",
     "start": "node_modules/http-server/bin storybook/storybook-react/dist/",
     "storybook": "npm-run-all --parallel watch:**",
