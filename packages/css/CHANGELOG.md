@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.12.0](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@3.11.0...@aram-limpens/design-system-css@3.12.0) (2023-12-16)
+
+### Features
+
+* new css feat ([0d19883](https://github.com/alimpens/design-system/commit/0d19883c5109b2b95d2f2660dd790391a05f7511))
+
 ## [3.11.0](https://github.com/alimpens/design-system/compare/@aram-limpens/design-system-css@3.10.0...@aram-limpens/design-system-css@3.11.0) (2023-12-16)
 
 ### Features
