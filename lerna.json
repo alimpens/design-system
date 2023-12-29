@@ -8,7 +8,6 @@
       "yes": true
     },
     "version": {
-      "allowBranch": ["main", "develop"],
       "changelogPreset": {
         "name": "conventionalcommits",
         "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}"
