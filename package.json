@@ -65,7 +65,7 @@
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "publish": "lerna publish from-package --yes",
-    "release": "lerna version",
+    "release": "env-cmd lerna version",
     "start": "node_modules/http-server/bin storybook/storybook-react/dist/",
     "storybook": "npm-run-all --parallel watch:**",
     "test": "npm run test-workspaces",
@@ -86,6 +86,9 @@
     "@lerna-lite/publish": "2.7.2",
     "@lerna-lite/run": "2.7.2",
     "@lerna-lite/version": "2.7.2",
+    "cross-env": "7.0.3",
+    "dotenv": "16.3.1",
+    "env-cmd": "10.1.0",
     "http-server": "14.1.1"
   }
 }

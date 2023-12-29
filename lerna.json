@@ -13,6 +13,7 @@
       },
       "conventionalCommits": true,
       "exact": true,
+      "githubRelease": true,
       "private": false,
       "skipBumpOnlyReleases": true,
       "syncWorkspaceLock": true
