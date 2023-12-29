@@ -125,8 +125,8 @@ importers:
         specifier: 0.4.6
         version: link:../../proprietary/react-icons
       '@utrecht/component-library-react':
-        specifier: 1.0.1
-        version: 1.0.1(date-fns@2.30.0)(react-dom@18.2.0)(react@18.2.0)
+        specifier: 3.0.0
+        version: 3.0.0(date-fns@2.30.0)(react-dom@18.2.0)(react@18.2.0)
       clsx:
         specifier: 2.0.0
         version: 2.0.0
@@ -6058,8 +6058,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@utrecht/component-library-react@1.0.1(date-fns@2.30.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-mDLrGoru1vt1M95dWfvUXVv+yBneC/2nlCkldCC+RA3rqJlXLMBo1u6SZNXTvp/P+XOInPwd2/Son1IBt+394Q==}
+  /@utrecht/component-library-react@3.0.0(date-fns@2.30.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-7ftpjtQ6ygIMqlB+pWQZAT7psFo1oXkbBSlbVw/uMV5OABRDX5t3V2lN/UDTPjdMRtcj8ZBYl19zPcfkV+Gc5w==}
     peerDependencies:
       date-fns: ^2.30.0
       react: '18'
