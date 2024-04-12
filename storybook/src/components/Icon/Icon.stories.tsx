@@ -4,7 +4,7 @@
  */
 
 import { Heading, Icon } from '@aram-limpens/design-system-react/src'
-import * as Icons from '@aram-limpens/design-system-react-icons'
+import * as Icons from '@aram-limpens/design-system-react-icons-test'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {

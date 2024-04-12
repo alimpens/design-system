@@ -10,18 +10,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * Deploy test 4 ([af599b4](https://github.com/alimpens/design-system/commit/af599b44f373c4d4eba2238ba2dc470059be860a))
 
-## [0.1.12](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-react-icons@0.1.11...@aram-limpens/design-system-react-icons@0.1.12) (2024-01-31)
+## [0.1.12](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-react-icons-test@0.1.11...@aram-limpens/design-system-react-icons-test@0.1.12) (2024-01-31)
 
-**Note:** Version bump only for package @aram-limpens/design-system-react-icons
+**Note:** Version bump only for package @aram-limpens/design-system-react-icons-test
 
-## [0.1.11](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-react-icons@0.1.10...@aram-limpens/design-system-react-icons@0.1.11) (2023-12-22)
+## [0.1.11](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-react-icons-test@0.1.10...@aram-limpens/design-system-react-icons-test@0.1.11) (2023-12-22)
 
-**Note:** Version bump only for package @aram-limpens/design-system-react-icons
+**Note:** Version bump only for package @aram-limpens/design-system-react-icons-test
 
-## [0.1.10](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-react-icons@0.1.9...@aram-limpens/design-system-react-icons@0.1.10) (2023-12-01)
+## [0.1.10](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-react-icons-test@0.1.9...@aram-limpens/design-system-react-icons-test@0.1.10) (2023-12-01)
 
-**Note:** Version bump only for package @aram-limpens/design-system-react-icons
+**Note:** Version bump only for package @aram-limpens/design-system-react-icons-test
 
-## [0.1.9](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-react-icons@0.1.8...@aram-limpens/design-system-react-icons@0.1.9) (2023-11-27)
+## [0.1.9](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-react-icons-test@0.1.8...@aram-limpens/design-system-react-icons-test@0.1.9) (2023-11-27)
 
-**Note:** Version bump only for package @aram-limpens/design-system-react-icons
+**Note:** Version bump only for package @aram-limpens/design-system-react-icons-test

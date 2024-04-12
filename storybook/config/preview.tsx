@@ -1,6 +1,6 @@
 import '@aram-limpens/design-system-tokens/dist/index.css'
 import '@aram-limpens/design-system-tokens/dist/compact.theme.css'
-import '@aram-limpens/design-system-assets/font/index.css'
+import '@aram-limpens/design-system-assets-test/font/index.css'
 import '@aram-limpens/design-system-css/dist/index.css'
 import './storybook-overrides.css'
 import { withThemeByClassName } from '@storybook/addon-themes'

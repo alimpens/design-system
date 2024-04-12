@@ -1,4 +1,4 @@
-import { AlertIcon } from '@aram-limpens/design-system-react-icons'
+import { AlertIcon } from '@aram-limpens/design-system-react-icons-test'
 import { render } from '@testing-library/react'
 import { createRef } from 'react'
 import { Icon } from './Icon'

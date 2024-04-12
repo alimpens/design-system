@@ -4,7 +4,7 @@
  */
 
 import { PageMenu } from '@aram-limpens/design-system-react/src'
-import { LoginIcon, SearchIcon } from '@aram-limpens/design-system-react-icons'
+import { LoginIcon, SearchIcon } from '@aram-limpens/design-system-react-icons-test'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {

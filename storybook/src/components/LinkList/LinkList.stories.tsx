@@ -4,7 +4,7 @@
  */
 
 import { LinkList } from '@aram-limpens/design-system-react/src'
-import * as Icons from '@aram-limpens/design-system-react-icons'
+import * as Icons from '@aram-limpens/design-system-react-icons-test'
 import { Meta, StoryObj } from '@storybook/react'
 import { exampleLinkList } from '../shared/exampleContent'
 

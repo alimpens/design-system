@@ -1,5 +1,5 @@
 import { Icon } from '@aram-limpens/design-system-react/src'
-import * as Icons from '@aram-limpens/design-system-react-icons'
+import * as Icons from '@aram-limpens/design-system-react-icons-test'
 import { IconGallery, IconItem } from '@storybook/blocks'
 
 export const AmsterdamIconGallery = () => {

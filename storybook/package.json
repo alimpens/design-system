@@ -19,10 +19,10 @@
     "start": "storybook dev --config-dir config/ --port 6006"
   },
   "devDependencies": {
-    "@aram-limpens/design-system-assets": "workspace:*",
+    "@aram-limpens/design-system-assets-test": "workspace:*",
     "@aram-limpens/design-system-css": "workspace:*",
     "@aram-limpens/design-system-react": "workspace:*",
-    "@aram-limpens/design-system-react-icons": "workspace:*",
+    "@aram-limpens/design-system-react-icons-test": "workspace:*",
     "@aram-limpens/design-system-tokens": "workspace:*",
     "@babel/core": "7.24.4",
     "@mdx-js/react": "2.3.0",

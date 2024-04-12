@@ -12,7 +12,7 @@ import {
   Paragraph,
   VisuallyHidden,
 } from '@aram-limpens/design-system-react/src'
-import { EmailIcon, PhoneIcon } from '@aram-limpens/design-system-react-icons'
+import { EmailIcon, PhoneIcon } from '@aram-limpens/design-system-react-icons-test'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {

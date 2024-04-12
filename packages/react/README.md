@@ -21,7 +21,7 @@ Make sure you specify the exact version as dependency, so you can schedule to up
 
 Install the packages you need, for instance:
 
-`npm install @aram-limpens/design-system-react @aram-limpens/design-system-tokens @aram-limpens/design-system-assets @aram-limpens/design-system-css`
+`npm install @aram-limpens/design-system-react @aram-limpens/design-system-tokens @aram-limpens/design-system-assets-test @aram-limpens/design-system-css`
 
 Import the packages you need.
 
@@ -29,7 +29,7 @@ Import the packages you need.
 import { Paragraph } from "@aram-limpens/design-system-react";
 
 import "@aram-limpens/design-system-tokens/dist/index.css";
-import "@aram-limpens/design-system-assets/font/index.css";
+import "@aram-limpens/design-system-assets-test/font/index.css";
 import "@aram-limpens/design-system-css/dist/index.css";
 
 function App() {

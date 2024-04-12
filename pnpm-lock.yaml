@@ -110,7 +110,7 @@ importers:
       '@aram-limpens/design-system-css':
         specifier: workspace:*
         version: link:../css
-      '@aram-limpens/design-system-react-icons':
+      '@aram-limpens/design-system-react-icons-test':
         specifier: workspace:*
         version: link:../../proprietary/react-icons
       clsx:
@@ -271,7 +271,7 @@ importers:
 
   storybook:
     devDependencies:
-      '@aram-limpens/design-system-assets':
+      '@aram-limpens/design-system-assets-test':
         specifier: workspace:*
         version: link:../proprietary/assets
       '@aram-limpens/design-system-css':
@@ -280,7 +280,7 @@ importers:
       '@aram-limpens/design-system-react':
         specifier: workspace:*
         version: link:../packages/react
-      '@aram-limpens/design-system-react-icons':
+      '@aram-limpens/design-system-react-icons-test':
         specifier: workspace:*
         version: link:../proprietary/react-icons
       '@aram-limpens/design-system-tokens':

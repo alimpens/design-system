@@ -3,7 +3,7 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { ChevronLeftIcon, ChevronRightIcon } from '@aram-limpens/design-system-react-icons'
+import { ChevronLeftIcon, ChevronRightIcon } from '@aram-limpens/design-system-react-icons-test'
 import clsx from 'clsx'
 import { forwardRef, useMemo, useState } from 'react'
 import type { ForwardedRef, HTMLAttributes } from 'react'
