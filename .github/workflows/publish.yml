@@ -74,21 +74,21 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.releases_created == 'true' }}
 
-      # The logic below handles the Storybook deploy:
-      - name: "Restore build artifact: Storybook"
-        uses: dawidd6/action-download-artifact@v3
-        with:
-          workflow: "lint-test.yml"
-          name: storybook
-          path: dist/storybook
-        if: ${{ steps.release.outputs.releases_created == 'true' }}
+      # # The logic below handles the Storybook deploy:
+      # - name: "Restore build artifact: Storybook"
+      #   uses: dawidd6/action-download-artifact@v3
+      #   with:
+      #     workflow: "lint-test.yml"
+      #     name: storybook
+      #     path: dist/storybook
+      #   if: ${{ steps.release.outputs.releases_created == 'true' }}
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: dist/storybook
-          # feature branch directories are prefixed with demo-*
-          # these are excluded from this action's default clean
-          clean-exclude: demo-*
-        if: ${{ steps.release.outputs.releases_created == 'true' }}
+      # - name: Deploy to GitHub Pages
+      #   uses: JamesIves/github-pages-deploy-action@v4
+      #   with:
+      #     branch: gh-pages
+      #     folder: dist/storybook
+      #     # feature branch directories are prefixed with demo-*
+      #     # these are excluded from this action's default clean
+      #     clean-exclude: demo-*
+      #   if: ${{ steps.release.outputs.releases_created == 'true' }}
