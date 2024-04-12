@@ -19,28 +19,28 @@ jobs:
           BRANCH_NAME=$(echo $RAW_BRANCH_NAME | sed 's/[^/]*\///')
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
 
-      - name: Check out
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
+      # - name: Check out
+      #   uses: actions/checkout@v4
+      #   with:
+      #     ref: gh-pages
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
+      # - uses: actions/setup-node@v4
+      #   with:
+      #     node-version: 20
 
-      - name: Delete folder
-        run: |
-          git config --global user.name GitHub Action
-          git config --global user.email github-action@users.noreply.github.com
-          git rm demo-${{ env.BRANCH_NAME }} -r
-          git add .
-          git commit -m "Remove feature branch folder"
-          git push
+      # - name: Delete folder
+      #   run: |
+      #     git config --global user.name GitHub Action
+      #     git config --global user.email github-action@users.noreply.github.com
+      #     git rm demo-${{ env.BRANCH_NAME }} -r
+      #     git add .
+      #     git commit -m "Remove feature branch folder"
+      #     git push
 
-      - name: Deactivate deployment
-        uses: bobheadxi/deployments@v1
-        if: always()
-        with:
-          step: deactivate-env
-          token: ${{ secrets.GITHUB_TOKEN }}
-          env: demo-${{ env.BRANCH_NAME }}
+      # - name: Deactivate deployment
+      #   uses: bobheadxi/deployments@v1
+      #   if: always()
+      #   with:
+      #     step: deactivate-env
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     env: demo-${{ env.BRANCH_NAME }}
