@@ -1,4 +1,4 @@
-import { ChevronRightIcon } from '@amsterdam/design-system-react-icons'
+import { ChevronRightIcon } from '@aram-limpens/design-system-react-icons'
 import { render, screen } from '@testing-library/react'
 import { createRef } from 'react'
 import { PageMenuLink } from './PageMenuLink'

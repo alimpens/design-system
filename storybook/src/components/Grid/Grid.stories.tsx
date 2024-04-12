@@ -3,8 +3,8 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { Grid, Screen } from '@amsterdam/design-system-react/src'
-import type { GridCellProps } from '@amsterdam/design-system-react/src'
+import { Grid, Screen } from '@aram-limpens/design-system-react/src'
+import type { GridCellProps } from '@aram-limpens/design-system-react/src'
 import { Meta, StoryObj } from '@storybook/react'
 import { paddingArgType } from '../shared/argTypes'
 

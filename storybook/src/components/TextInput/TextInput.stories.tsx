@@ -3,7 +3,7 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { TextInput, TextInputProps } from '@amsterdam/design-system-react/src'
+import { TextInput, TextInputProps } from '@aram-limpens/design-system-react/src'
 import { useArgs } from '@storybook/preview-api'
 import { Meta, StoryObj } from '@storybook/react'
 

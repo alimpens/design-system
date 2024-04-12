@@ -21,7 +21,7 @@ In time, the Storybook(s) in this repository should be the definitive source for
 
 If you want to add a component, first check if it’s already included in our [Figma Library](<https://www.figma.com/file/ORa7CBIooPgZj6HsEPBxNR/Design-bibliotheek-(gepubliceerd)?node-id=149%3A1324&t=Ud6eZytawJYnLlyi-0>).
 
-If there is no design, or if you have questions about an existing design, please contact <designsystem@amsterdam.nl>.
+If there is no design, or if you have questions about an existing design, please contact <designsystem@aram-limpens.nl>.
 
 ## Install prerequisites
 
@@ -73,12 +73,12 @@ If you need to link your local version of this library (to test your unpublished
 - Go to the root of the project in which you want to consume the packages
 - Run `npm link <package-name>`.
   If you want to link multiple packages, separate the package names with a space.
-  For example: `npm link @amsterdam/design-system-tokens @amsterdam/design-system-assets @amsterdam/design-system-react @amsterdam/design-system-react-icons`.
+  For example: `npm link @aram-limpens/design-system-tokens @aram-limpens/design-system-assets @aram-limpens/design-system-react @aram-limpens/design-system-react-icons`.
   Be careful: you have to link all packages in the same namespace together.
   Doing it one at a time will only link the last one.
   <!-- TODO: is there a workaround for this? -->
 - Sometimes the local link is severed.
-  Run `npm link @amsterdam/...` again if this happens.
+  Run `npm link @aram-limpens/...` again if this happens.
 
 ## Licensing
 

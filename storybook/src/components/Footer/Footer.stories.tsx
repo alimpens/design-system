@@ -11,8 +11,8 @@ import {
   PageMenu,
   Paragraph,
   VisuallyHidden,
-} from '@amsterdam/design-system-react/src'
-import { EmailIcon, PhoneIcon } from '@amsterdam/design-system-react-icons'
+} from '@aram-limpens/design-system-react/src'
+import { EmailIcon, PhoneIcon } from '@aram-limpens/design-system-react-icons'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {
@@ -41,7 +41,12 @@ export const Default: Story = {
                 Heeft u een vraag en kunt u het antwoord niet vinden op deze site? Neem dan contact met ons op.
               </Paragraph>
               <LinkList>
-                <LinkList.Link href="mailto:redactie.os@amsterdam.nl" icon={EmailIcon} onBackground="dark" size="small">
+                <LinkList.Link
+                  href="mailto:redactie.os@aram-limpens.nl"
+                  icon={EmailIcon}
+                  onBackground="dark"
+                  size="small"
+                >
                   E-mail
                 </LinkList.Link>
                 <LinkList.Link href="tel:+31202510333" icon={PhoneIcon} onBackground="dark" size="small">

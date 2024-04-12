@@ -3,7 +3,7 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { Grid, Heading, LinkList, MegaMenu, Screen } from '@amsterdam/design-system-react/src'
+import { Grid, Heading, LinkList, MegaMenu, Screen } from '@aram-limpens/design-system-react/src'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {

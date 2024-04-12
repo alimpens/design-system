@@ -3,7 +3,7 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { Icon, Paragraph, UnorderedList } from '@amsterdam/design-system-react/src'
+import { Icon, Paragraph, UnorderedList } from '@aram-limpens/design-system-react/src'
 import {
   AlertIcon,
   AnnouncementIcon,
@@ -13,7 +13,7 @@ import {
   LocationIcon,
   PassportIcon,
   TrashBinIcon,
-} from '@amsterdam/design-system-react-icons'
+} from '@aram-limpens/design-system-react-icons'
 import type { Meta, StoryObj } from '@storybook/react'
 import { exampleUnorderedList } from '../shared/exampleContent'
 

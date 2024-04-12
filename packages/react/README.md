@@ -2,10 +2,10 @@
 
 # Component library for React apps
 
-The `@amsterdam/design-system-react` package contains React implementations of various components.
+The `@aram-limpens/design-system-react` package contains React implementations of various components.
 You can use this package in React apps.
 
-The design tokens and css used in these components are published in separate npm packages, so don’t forget to install and include `@amsterdam/design-system-tokens` and `@amsterdam/design-system-css` too.
+The design tokens and css used in these components are published in separate npm packages, so don’t forget to install and include `@aram-limpens/design-system-tokens` and `@aram-limpens/design-system-css` too.
 
 <!-- TODO: make this easier? -->
 
@@ -21,16 +21,16 @@ Make sure you specify the exact version as dependency, so you can schedule to up
 
 Install the packages you need, for instance:
 
-`npm install @amsterdam/design-system-react @amsterdam/design-system-tokens @amsterdam/design-system-assets @amsterdam/design-system-css`
+`npm install @aram-limpens/design-system-react @aram-limpens/design-system-tokens @aram-limpens/design-system-assets @aram-limpens/design-system-css`
 
 Import the packages you need.
 
 ```javascript
-import { Paragraph } from "@amsterdam/design-system-react";
+import { Paragraph } from "@aram-limpens/design-system-react";
 
-import "@amsterdam/design-system-tokens/dist/index.css";
-import "@amsterdam/design-system-assets/font/index.css";
-import "@amsterdam/design-system-css/dist/index.css";
+import "@aram-limpens/design-system-tokens/dist/index.css";
+import "@aram-limpens/design-system-assets/font/index.css";
+import "@aram-limpens/design-system-css/dist/index.css";
 
 function App() {
   return <Paragraph>Hello world</Paragraph>;
@@ -46,6 +46,6 @@ That’s why there is a compact mode.
 To use the compact mode, import the compact css **after** theme css, like so:
 
 ```javascript
-import "@amsterdam/design-system-tokens/dist/index.css";
-import "@amsterdam/design-system-tokens/dist/compact.css";
+import "@aram-limpens/design-system-tokens/dist/index.css";
+import "@aram-limpens/design-system-tokens/dist/compact.css";
 ```

@@ -19,7 +19,7 @@ We make these components available in various libraries so that designers and de
 
 ### Figma
 
-[Find our Figma Library here](https://www.figma.com/file/9IGm6IdPUYizBNGsUnueBd/Amsterdam-Design-System?type=design&node-id=2927%3A29177&mode=design&t=6KlrHnKkHU2uZ9s9-1) (if necessary, create an account on your @amsterdam.nl address).
+[Find our Figma Library here](https://www.figma.com/file/9IGm6IdPUYizBNGsUnueBd/Amsterdam-Design-System?type=design&node-id=2927%3A29177&mode=design&t=6KlrHnKkHU2uZ9s9-1) (if necessary, create an account on your @aram-limpens.nl address).
 Various components and text styles are ready to use in your designs.
 Several others are in the final stages of review.
 Refer to the introduction and legend on the cover page.
@@ -81,7 +81,7 @@ Your pull requests and issues are welcome.
 Do you want to know how the design system can help you? Questions about our working method or suggestions for the roadmap?
 Let us know; we are happy to work with you.
 
-Don’t hesitate to get in touch with us by email at <designsystem@amsterdam.nl>.
+Don’t hesitate to get in touch with us by email at <designsystem@aram-limpens.nl>.
 
 The current core team:
 Aram Limpens,

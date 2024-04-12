@@ -3,7 +3,7 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { FormFieldCharacterCounter } from '@amsterdam/design-system-react/src'
+import { FormFieldCharacterCounter } from '@aram-limpens/design-system-react/src'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {

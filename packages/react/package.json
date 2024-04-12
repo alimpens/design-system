@@ -3,7 +3,7 @@
   "author": "Community for NL Design System",
   "description": "React component library bundle for the City of Amsterdam based on the NL Design System architecture",
   "license": "EUPL-1.2",
-  "name": "@amsterdam/design-system-react",
+  "name": "@aram-limpens/design-system-react",
   "keywords": [
     "nl-design-system"
   ],
@@ -32,7 +32,7 @@
     "dist/"
   ],
   "dependencies": {
-    "@amsterdam/design-system-react-icons": "workspace:*",
+    "@aram-limpens/design-system-react-icons": "workspace:*",
     "clsx": "2.1.0"
   },
   "devDependencies": {

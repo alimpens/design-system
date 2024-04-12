@@ -98,7 +98,7 @@ importers:
 
   packages/css:
     devDependencies:
-      '@amsterdam/design-system-tokens':
+      '@aram-limpens/design-system-tokens':
         specifier: workspace:*
         version: link:../../proprietary/tokens
       sass:
@@ -107,7 +107,7 @@ importers:
 
   packages/react:
     dependencies:
-      '@amsterdam/design-system-react-icons':
+      '@aram-limpens/design-system-react-icons':
         specifier: workspace:*
         version: link:../../proprietary/react-icons
       clsx:
@@ -268,19 +268,19 @@ importers:
 
   storybook:
     devDependencies:
-      '@amsterdam/design-system-assets':
+      '@aram-limpens/design-system-assets':
         specifier: workspace:*
         version: link:../proprietary/assets
-      '@amsterdam/design-system-css':
+      '@aram-limpens/design-system-css':
         specifier: workspace:*
         version: link:../packages/css
-      '@amsterdam/design-system-react':
+      '@aram-limpens/design-system-react':
         specifier: workspace:*
         version: link:../packages/react
-      '@amsterdam/design-system-react-icons':
+      '@aram-limpens/design-system-react-icons':
         specifier: workspace:*
         version: link:../proprietary/react-icons
-      '@amsterdam/design-system-tokens':
+      '@aram-limpens/design-system-tokens':
         specifier: workspace:*
         version: link:../proprietary/tokens
       '@babel/core':

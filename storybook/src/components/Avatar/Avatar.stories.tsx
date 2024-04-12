@@ -3,8 +3,8 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { Avatar, Header, PageMenu } from '@amsterdam/design-system-react/src'
-import { SearchIcon } from '@amsterdam/design-system-react-icons'
+import { Avatar, Header, PageMenu } from '@aram-limpens/design-system-react/src'
+import { SearchIcon } from '@aram-limpens/design-system-react-icons'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {
