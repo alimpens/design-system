@@ -72,12 +72,12 @@
     "tslib": "2.6.2"
   },
   "peerDependencies": {
-    "@amsterdam/design-system-css": "workspace:*",
+    "@aram-limpens/design-system-css": "workspace:*",
     "react": "16 - 18",
     "react-dom": "16 - 18"
   },
   "peerDependenciesMeta": {
-    "@amsterdam/design-system-css": {
+    "@aram-limpens/design-system-css": {
       "optional": true
     }
   }

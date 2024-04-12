@@ -107,6 +107,9 @@ importers:
 
   packages/react:
     dependencies:
+      '@aram-limpens/design-system-css':
+        specifier: workspace:*
+        version: link:../css
       '@aram-limpens/design-system-react-icons':
         specifier: workspace:*
         version: link:../../proprietary/react-icons
