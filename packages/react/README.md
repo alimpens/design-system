@@ -1,6 +1,6 @@
 <!-- @license CC0-1.0 -->
 
-# Component library for React apps
+# DEPLOY TEST REACT 1
 
 The `@aram-limpens/design-system-react` package contains React implementations of various components.
 You can use this package in React apps.
