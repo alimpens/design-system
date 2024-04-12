@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/alimpens/design-system/compare/design-system-assets-test-v0.2.1...design-system-assets-test-v0.2.2) (2024-04-12)
+
+
+### Features
+
+* Deploy test 4 ([af599b4](https://github.com/alimpens/design-system/commit/af599b44f373c4d4eba2238ba2dc470059be860a))
+
 ## [0.2.1](https://github.com/alimpens/design-system/compare/design-system-assets-v0.2.0...design-system-assets-v0.2.1) (2024-04-12)
 
 
