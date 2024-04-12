@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.14](https://github.com/alimpens/design-system/compare/design-system-react-icons-test-v0.1.13...design-system-react-icons-test-v0.1.14) (2024-04-12)
+
+
+### Features
+
+* Deploy test 4 ([af599b4](https://github.com/alimpens/design-system/commit/af599b44f373c4d4eba2238ba2dc470059be860a))
+
 ## [0.1.13](https://github.com/alimpens/design-system/compare/design-system-react-icons-v0.1.12...design-system-react-icons-v0.1.13) (2024-04-12)
 
 
