@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.8](https://github.com/alimpens/design-system/compare/design-system-react-v0.7.7...design-system-react-v0.7.8) (2024-04-12)
+
+
+### Features
+
+* Use newer css pkg ([ebb7073](https://github.com/alimpens/design-system/commit/ebb707353d253f7467924ea11b404ba131bd63c1))
+
 ## [0.7.7](https://github.com/alimpens/design-system/compare/design-system-react-v0.7.6...design-system-react-v0.7.7) (2024-04-12)
 
 
