@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.3](https://github.com/alimpens/design-system/compare/design-system-react-v0.7.2...design-system-react-v0.7.3) (2024-04-12)
+
+
+### Features
+
+* Deploy test 2 ([c4b6d72](https://github.com/alimpens/design-system/commit/c4b6d724212c01f1394e2968dae368a0e98c2820))
+
 ## [0.7.2](https://github.com/alimpens/design-system/compare/design-system-react-v0.7.1...design-system-react-v0.7.2) (2024-04-12)
 
 
