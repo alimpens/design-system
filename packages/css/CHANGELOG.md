@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.5](https://github.com/alimpens/design-system/compare/design-system-css-v0.7.4...design-system-css-v0.7.5) (2024-04-17)
+
+
+### Features
+
+* Deploy all the things ([7cd799b](https://github.com/alimpens/design-system/commit/7cd799bda44f70970b498b6472c00c79e5971e4e))
+
 ## [0.7.4](https://github.com/alimpens/design-system/compare/design-system-css-v0.7.3...design-system-css-v0.7.4) (2024-04-17)
 
 
