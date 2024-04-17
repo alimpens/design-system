@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.9](https://github.com/alimpens/design-system/compare/design-system-react-v0.7.8...design-system-react-v0.7.9) (2024-04-17)
+
+
+### Features
+
+* Add peer deps ([a25a5df](https://github.com/alimpens/design-system/commit/a25a5dfc9533f56d287811eca9cf14d0b46fb03f))
+* Move react-icons back to regular dependencies ([adff6d9](https://github.com/alimpens/design-system/commit/adff6d9171b8c75543e187c797455aaf3d6fd917))
+
 ## [0.7.8](https://github.com/alimpens/design-system/compare/design-system-react-v0.7.7...design-system-react-v0.7.8) (2024-04-12)
 
 
