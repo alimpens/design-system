@@ -97,10 +97,14 @@ importers:
         version: 7.2.0
 
   packages/css:
-    devDependencies:
+    dependencies:
+      '@aram-limpens/design-system-assets-test':
+        specifier: workspace:*
+        version: link:../../proprietary/assets
       '@aram-limpens/design-system-tokens':
         specifier: workspace:*
         version: link:../../proprietary/tokens
+    devDependencies:
       sass:
         specifier: 1.74.1
         version: 1.74.1
