@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.4](https://github.com/alimpens/design-system/compare/design-system-css-v0.7.3...design-system-css-v0.7.4) (2024-04-17)
+
+
+### Features
+
+* Add peer deps ([a25a5df](https://github.com/alimpens/design-system/commit/a25a5dfc9533f56d287811eca9cf14d0b46fb03f))
+
 ## [0.7.3](https://github.com/alimpens/design-system/compare/design-system-css-v0.7.2...design-system-css-v0.7.3) (2024-04-17)
 
 
