@@ -324,8 +324,8 @@ importers:
         specifier: 8.0.6
         version: 8.0.6(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-events':
-        specifier: 8.0.6
-        version: 8.0.6
+        specifier: 8.0.10
+        version: 8.0.10
       '@storybook/manager-api':
         specifier: 8.0.6
         version: 8.0.6(react-dom@18.2.0)(react@18.2.0)
@@ -3795,6 +3795,12 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
+    dev: true
+
+  /@storybook/core-events@8.0.10:
+    resolution: {integrity: sha512-TuHPS6p5ZNr4vp4butLb4R98aFx0NRYCI/7VPhJEUH5rPiqNzE3PZd8DC8rnVxavsJ+jO1/y+egNKXRYkEcoPQ==}
+    dependencies:
+      ts-dedent: 2.2.0
     dev: true
 
   /@storybook/core-events@8.0.6:
