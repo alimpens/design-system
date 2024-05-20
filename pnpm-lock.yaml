@@ -324,8 +324,8 @@ importers:
         specifier: 8.0.6
         version: 8.0.6(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-events':
-        specifier: 8.0.6
-        version: 8.0.6
+        specifier: 8.1.1
+        version: 8.1.1
       '@storybook/manager-api':
         specifier: 8.0.6
         version: 8.0.6(react-dom@18.2.0)(react@18.2.0)
@@ -3724,7 +3724,7 @@ packages:
       '@babel/core': 7.24.4
       '@babel/preset-env': 7.24.4(@babel/core@7.24.4)
       '@babel/types': 7.24.0
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.7
       '@storybook/csf-tools': 8.0.6
       '@storybook/node-logger': 8.0.6
       '@storybook/types': 8.0.6
@@ -3803,6 +3803,13 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
+  /@storybook/core-events@8.1.1:
+    resolution: {integrity: sha512-WpeiBV6RWTZ6t8SI1YdQh8NlbvQtZs9WRr4CPfpzHAly+oxFy6PtPz0h5TMKsU5/kt/L9yL7tE9ZzPYzvFWH/A==}
+    dependencies:
+      '@storybook/csf': 0.1.7
+      ts-dedent: 2.2.0
+    dev: true
+
   /@storybook/core-server@8.0.6(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-COmcjrry8vZXDh08ZGbfDz2bFB4of5wnwOwYf8uwlVND6HnhQzV22On1s3/p8qw+dKOpjpwDdHWtMnndnPNuqQ==}
     dependencies:
@@ -3813,7 +3820,7 @@ packages:
       '@storybook/channels': 8.0.6
       '@storybook/core-common': 8.0.6
       '@storybook/core-events': 8.0.6
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.7
       '@storybook/csf-tools': 8.0.6
       '@storybook/docs-mdx': 3.0.0
       '@storybook/global': 5.0.0
@@ -3874,7 +3881,7 @@ packages:
       '@babel/parser': 7.24.1
       '@babel/traverse': 7.24.1
       '@babel/types': 7.24.0
-      '@storybook/csf': 0.1.2
+      '@storybook/csf': 0.1.7
       '@storybook/types': 8.0.6
       fs-extra: 11.2.0
       recast: 0.23.6
@@ -3885,6 +3892,12 @@ packages:
 
   /@storybook/csf@0.1.2:
     resolution: {integrity: sha512-ePrvE/pS1vsKR9Xr+o+YwdqNgHUyXvg+1Xjx0h9LrVx7Zq4zNe06pd63F5EvzTbCbJsHj7GHr9tkiaqm7U8WRA==}
+    dependencies:
+      type-fest: 2.19.0
+    dev: true
+
+  /@storybook/csf@0.1.7:
+    resolution: {integrity: sha512-53JeLZBibjQxi0Ep+/AJTfxlofJlxy1jXcSKENlnKxHjWEYyHQCumMP5yTFjf7vhNnMjEpV3zx6t23ssFiGRyw==}
     dependencies:
       type-fest: 2.19.0
     dev: true
@@ -13369,7 +13382,7 @@ packages:
       '@types/normalize-package-data': 2.4.4
       normalize-package-data: 6.0.0
       parse-json: 8.1.0
-      type-fest: 4.7.0
+      type-fest: 4.15.0
       unicorn-magic: 0.1.0
     dev: true
 
@@ -15987,7 +16000,7 @@ packages:
       deepmerge-ts: 5.1.0
       read-pkg: 9.0.1
       sort-keys: 5.0.0
-      type-fest: 4.7.0
+      type-fest: 4.15.0
       write-json-file: 5.0.0
     dev: true
 
