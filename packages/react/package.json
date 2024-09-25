@@ -29,7 +29,8 @@
   "module": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist/"
+    "dist/",
+    "src/"
   ],
   "dependencies": {
     "@aram-limpens/design-system-react-icons-test": "workspace:*",
