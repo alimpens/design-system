@@ -1,6 +1,6 @@
 {
   "packages/css": "0.7.5",
-  "packages/react": "0.7.10",
+  "packages/react": "0.7.11",
   "proprietary/assets": "0.2.3",
   "proprietary/react-icons": "0.1.15",
   "proprietary/tokens": "0.7.2"
