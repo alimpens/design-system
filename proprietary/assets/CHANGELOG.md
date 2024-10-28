@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/alimpens/design-system/compare/design-system-assets-test-v0.2.3...design-system-assets-test-v0.2.4) (2024-10-28)
+
+
+### Bug Fixes
+
+* **deps:** bump the patch-and-minor-dependencies group with 52 updates ([38eef91](https://github.com/alimpens/design-system/commit/38eef916f6d7e3592100b14c61f85a847399b069))
+
 ## [0.2.3](https://github.com/alimpens/design-system/compare/design-system-assets-test-v0.2.2...design-system-assets-test-v0.2.3) (2024-04-17)
 
 
