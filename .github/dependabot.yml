@@ -9,12 +9,13 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: chore
+      include: scope
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
     # Prod and dev dependencies are split in two groups,
-    # because they get a different prefix ('fix' for prod, 'chore' for dev)
+    # because their PRs get a different prefix ('fix' for prod, 'chore' for dev)
     groups:
       patch-and-minor-dependencies:
         applies-to: "version-updates"
@@ -33,3 +34,4 @@ updates:
     commit-message:
       prefix: fix
       prefix-development: chore
+      include: scope
