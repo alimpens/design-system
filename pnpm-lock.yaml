@@ -78,8 +78,8 @@ importers:
         specifier: 3.3.3
         version: 3.3.3
       rimraf:
-        specifier: 5.0.5
-        version: 5.0.5
+        specifier: 6.0.1
+        version: 6.0.1
       stylelint:
         specifier: 16.10.0
         version: 16.10.0(typescript@5.6.3)
@@ -4098,11 +4098,6 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
 
-  glob@10.3.9:
-    resolution: {integrity: sha512-2tU/LKevAQvDVuVJ9pg9Yv9xcbSh+TqHuTaXTNbQwf+0kDl9Fm6bMovi4Nm5c8TVvfxo2LLcqCGtmO9KoJaGWg==}
-    engines: {node: '>=16 || 14 >=14.17'}
-    hasBin: true
-
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
     hasBin: true
@@ -6590,6 +6585,11 @@ packages:
   rimraf@5.0.5:
     resolution: {integrity: sha512-CqDakW+hMe/Bz202FPEymy68P+G50RfMQK+Qo5YUqc9SPipvbGjCGKd0RSKEelbsfQuw3g5NZDSrlZZAJurH1A==}
     engines: {node: '>=14'}
+    hasBin: true
+
+  rimraf@6.0.1:
+    resolution: {integrity: sha512-9dkvaxAsk/xNXSJzMgFqqMCuFgt2+KsOFek3TMLfo8NCPfWpBmqwyNn5Y+NX56QUYfCtsyhF3ayiboEoUmJk/A==}
+    engines: {node: 20 || >=22}
     hasBin: true
 
   rollup-plugin-delete@2.1.0:
@@ -12371,14 +12371,6 @@ snapshots:
       minipass: 7.0.3
       path-scurry: 1.10.1
 
-  glob@10.3.9:
-    dependencies:
-      foreground-child: 3.1.1
-      jackspeak: 2.3.5
-      minimatch: 9.0.5
-      minipass: 7.0.3
-      path-scurry: 1.10.1
-
   glob@10.4.5:
     dependencies:
       foreground-child: 3.3.0
@@ -15093,7 +15085,7 @@ snapshots:
   path-scurry@1.10.1:
     dependencies:
       lru-cache: 10.4.3
-      minipass: 7.0.3
+      minipass: 7.1.2
 
   path-scurry@1.11.1:
     dependencies:
@@ -15594,7 +15586,12 @@ snapshots:
 
   rimraf@5.0.5:
     dependencies:
-      glob: 10.3.9
+      glob: 10.4.5
+
+  rimraf@6.0.1:
+    dependencies:
+      glob: 11.0.0
+      package-json-from-dist: 1.0.1
 
   rollup-plugin-delete@2.1.0(rollup@4.24.2):
     dependencies:
