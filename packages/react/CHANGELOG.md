@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.12](https://github.com/alimpens/design-system/compare/design-system-react-v0.7.11...design-system-react-v0.7.12) (2024-10-30)
+
+
+### Bug Fixes
+
+* **deps:** bump the patch-and-minor-dependencies group with 52 updates ([38eef91](https://github.com/alimpens/design-system/commit/38eef916f6d7e3592100b14c61f85a847399b069))
+
 ## [0.7.11](https://github.com/alimpens/design-system/compare/design-system-react-v0.7.10...design-system-react-v0.7.11) (2024-09-25)
 
 
