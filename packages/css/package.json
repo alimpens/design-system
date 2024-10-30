@@ -19,7 +19,7 @@
     "clean": "rimraf dist/"
   },
   "devDependencies": {
-    "sass": "1.80.4"
+    "sass": "1.80.5"
   },
   "peerDependencies": {
     "@aram-limpens/design-system-tokens": "workspace:*",
