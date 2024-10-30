@@ -20,63 +20,67 @@ jobs:
           BRANCH_NAME=$(echo $RAW_BRANCH_NAME | sed 's/[^/]*\///')
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
 
-      # - name: Check out
-      #   uses: actions/checkout@v4
+      - name: Check out
+        uses: actions/checkout@v4
 
-      # - name: Create deployment
-      #   uses: bobheadxi/deployments@v1
-      #   id: deployment
-      #   with:
-      #     step: start
-      #     token: ${{ secrets.GITHUB_TOKEN }}
-      #     env: demo-${{ env.BRANCH_NAME }}
+      - name: Create deployment
+        uses: bobheadxi/deployments@v1
+        id: deployment
+        with:
+          step: start
+          token: ${{ secrets.GITHUB_TOKEN }}
+          env: demo-${{ env.BRANCH_NAME }}
 
-      # - uses: actions/setup-node@v4
-      #   with:
-      #     node-version: 20
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
 
-      # - uses: pnpm/action-setup@v3
-      #   name: Install pnpm
-      #   id: pnpm-install
-      #   with:
-      #     version: 8
-      #     run_install: false
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          run_install: false
 
-      # - name: Install dependencies
-      #   run: |
-      #     pnpm install
+      - name: Install dependencies
+        run: |
+          pnpm install
 
-      # - name: Build
-      #   env:
-      #     STORYBOOK_BUILD_PATH: demo-${{ env.BRANCH_NAME }}
-      #   run: npm run build
+      - name: Build
+        env:
+          STORYBOOK_BUILD_PATH: demo-${{ env.BRANCH_NAME }}
+        run: npm run build
 
-      # - name: Create a version mark
-      #   run: |
-      #     touch ./storybook/dist/${{ github.sha }}.txt
+      - name: Create a version mark
+        run: |
+          touch ./storybook/dist/${{ github.sha }}.txt
 
-      # - name: Pushing to pages branch
-      #   uses: JamesIves/github-pages-deploy-action@v4
-      #   with:
-      #     branch: gh-pages
-      #     folder: storybook/dist
-      #     target-folder: demo-${{ env.BRANCH_NAME }}
+      # Our workflows use .nvmrc instead of a fixed version, so we need to copy this file over
+      # to the dist files for use in the feature branch cleanup workflow
+      - name: Copy over .nvmrc to dist
+        run: cp .nvmrc ./storybook/dist/
 
-      # - name: Wait for GitHub Pages to be deployed
-      #   uses: mydea/action-wait-for-api@v1
-      #   with:
-      #     url: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/demo-${{ env.BRANCH_NAME }}/${{ github.sha }}.txt
-      #     expected-status: 200
-      #     timeout: 600
-      #     interval: 15
+      - name: Pushing to pages branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: storybook/dist
+          target-folder: demo-${{ env.BRANCH_NAME }}
 
-      # - name: Update deployment status
-      #   uses: bobheadxi/deployments@v1
-      #   if: always()
-      #   with:
-      #     step: finish
-      #     token: ${{ secrets.GITHUB_TOKEN }}
-      #     status: ${{ job.status }}
-      #     env: ${{ steps.deployment.outputs.env }}
-      #     deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-      #     env_url: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/demo-${{ env.BRANCH_NAME }}
+      - name: Wait for GitHub Pages to be deployed
+        uses: mydea/action-wait-for-api@v1
+        with:
+          url: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/demo-${{ env.BRANCH_NAME }}/${{ github.sha }}.txt
+          expected-status: 200
+          timeout: 600
+          interval: 15
+
+      - name: Update deployment status
+        uses: bobheadxi/deployments@v1
+        if: always()
+        with:
+          step: finish
+          token: ${{ secrets.GITHUB_TOKEN }}
+          status: ${{ job.status }}
+          env: ${{ steps.deployment.outputs.env }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          env_url: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/demo-${{ env.BRANCH_NAME }}
