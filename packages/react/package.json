@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "@aram-limpens/design-system-react-icons-test": "workspace:*",
-    "clsx": "2.1.0"
+    "clsx": "2.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.26.0",
