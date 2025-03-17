@@ -61,14 +61,14 @@ export default [
     ],
   },
   {
-    input: './dist/dts/index.d.ts',
+    input: './dist/index.d.ts',
     output: [{ file: 'dist/index.d.ts', format: 'es' }],
     plugins: [
       dts(),
-      del({
-        targets: 'dist/dts',
-        hook: 'buildEnd',
-      }),
+      // del({
+      //   targets: 'dist/dts',
+      //   hook: 'buildEnd',
+      // }),
     ],
   },
 ]
