@@ -1,7 +1,7 @@
 {
-  "packages/css": "0.7.5",
-  "packages/react": "0.7.11",
-  "proprietary/assets": "0.2.3",
-  "proprietary/react-icons": "0.1.15",
+  "packages/css": "0.7.6",
+  "packages/react": "0.7.12",
+  "proprietary/assets": "0.2.4",
+  "proprietary/react-icons": "0.1.16",
   "proprietary/tokens": "0.7.2"
 }
