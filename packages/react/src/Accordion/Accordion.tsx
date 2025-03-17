@@ -21,6 +21,8 @@ const AccordionRoot = forwardRef(
   ({ children, className, headingLevel, section = true }: AccordionProps, ref: ForwardedRef<HTMLDivElement>) => {
     const innerRef = useRef<HTMLDivElement>(null)
 
+    console.log('ksksk')
+
     // use a passed ref if it's there, otherwise use innerRef
     useImperativeHandle(ref, () => innerRef.current as HTMLDivElement)
 
