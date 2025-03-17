@@ -19,28 +19,31 @@ jobs:
           BRANCH_NAME=$(echo $RAW_BRANCH_NAME | sed 's/[^/]*\///')
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
 
-      # - name: Check out
-      #   uses: actions/checkout@v4
-      #   with:
-      #     ref: gh-pages
+      - name: Check out branch to access .nvmrc
+        uses: actions/checkout@v4
 
-      # - uses: actions/setup-node@v4
-      #   with:
-      #     node-version: 20
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
 
-      # - name: Delete folder
-      #   run: |
-      #     git config --global user.name GitHub Action
-      #     git config --global user.email github-action@users.noreply.github.com
-      #     git rm demo-${{ env.BRANCH_NAME }} -r
-      #     git add .
-      #     git commit -m "Remove feature branch folder"
-      #     git push
+      - name: Check out gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
 
-      # - name: Deactivate deployment
-      #   uses: bobheadxi/deployments@v1
-      #   if: always()
-      #   with:
-      #     step: deactivate-env
-      #     token: ${{ secrets.GITHUB_TOKEN }}
-      #     env: demo-${{ env.BRANCH_NAME }}
+      - name: Delete folder
+        run: |
+          git config --global user.name GitHub Action
+          git config --global user.email github-action@users.noreply.github.com
+          git rm demo-${{ env.BRANCH_NAME }} -r
+          git add .
+          git commit -m "Remove feature branch folder"
+          git push
+
+      - name: Deactivate deployment
+        uses: bobheadxi/deployments@v1
+        if: always()
+        with:
+          step: deactivate-env
+          token: ${{ secrets.GITHUB_TOKEN }}
+          env: demo-${{ env.BRANCH_NAME }}

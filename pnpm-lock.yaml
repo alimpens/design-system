@@ -114,7 +114,7 @@ importers:
       '@aram-limpens/design-system-css':
         specifier: workspace:*
         version: link:../css
-      '@aram-limpens/design-system-react-icons-test':
+      '@aram-limpens/design-system-react-icons':
         specifier: workspace:*
         version: link:../../proprietary/react-icons
       clsx:
@@ -284,7 +284,7 @@ importers:
       '@aram-limpens/design-system-react':
         specifier: workspace:*
         version: link:../packages/react
-      '@aram-limpens/design-system-react-icons-test':
+      '@aram-limpens/design-system-react-icons':
         specifier: workspace:*
         version: link:../proprietary/react-icons
       '@aram-limpens/design-system-tokens':

@@ -3,11 +3,9 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { ChevronRightIcon } from '@aram-limpens/design-system-react-icons-test'
 import clsx from 'clsx'
 import { forwardRef } from 'react'
 import type { AnchorHTMLAttributes, ForwardedRef, PropsWithChildren } from 'react'
-import { Icon } from '../Icon'
 
 type BackgroundName = 'default' | 'light' | 'dark'
 
@@ -28,16 +26,10 @@ export type LinkListLinkProps = {
   size?: 'small' | 'large'
 } & PropsWithChildren<AnchorHTMLAttributes<HTMLAnchorElement>>
 
-const iconSizeMap = {
-  small: 'level-6',
-  medium: 'level-5',
-  large: 'level-4',
-} as const
-
 /** One link with a Link List. */
 export const LinkListLink = forwardRef(
   (
-    { children, className, href, icon, onBackground, size, ...restProps }: LinkListLinkProps,
+    { children, className, href, onBackground, size, ...restProps }: LinkListLinkProps,
     ref: ForwardedRef<HTMLAnchorElement>,
   ) => {
     return (
@@ -53,7 +45,6 @@ export const LinkListLink = forwardRef(
           ref={ref}
           {...restProps}
         >
-          <Icon svg={icon ?? ChevronRightIcon} size={iconSizeMap[size ?? 'medium']} />
           {children}
         </a>
       </li>

@@ -4,7 +4,7 @@
  */
 
 import { Button, Icon } from '@aram-limpens/design-system-react/src'
-import { ShareIcon } from '@aram-limpens/design-system-react-icons-test'
+import { ShareIcon } from '@aram-limpens/design-system-react-icons'
 import { Meta, StoryObj } from '@storybook/react'
 
 const meta = {

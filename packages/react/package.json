@@ -18,7 +18,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c && tsc",
     "build:watch": "rollup -c --watch",
     "clean": "rimraf dist/",
     "lint": "tsc --project ./tsconfig.json --noEmit && tsc --noEmit --project ./tsconfig.test.json",
@@ -33,7 +33,7 @@
     "src/"
   ],
   "dependencies": {
-    "@aram-limpens/design-system-react-icons-test": "workspace:*",
+    "@aram-limpens/design-system-react-icons": "workspace:*",
     "clsx": "2.1.0"
   },
   "devDependencies": {

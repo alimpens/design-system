@@ -3,11 +3,9 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { PersonalLoginIcon } from '@aram-limpens/design-system-react-icons-test'
 import clsx from 'clsx'
 import { forwardRef } from 'react'
 import type { ForwardedRef, HTMLAttributes } from 'react'
-import { Icon } from '../Icon'
 import { Image } from '../Image'
 import { VisuallyHidden } from '../VisuallyHidden'
 
@@ -39,7 +37,7 @@ const Content = ({ imageSrc, initials }: ContentProps) => {
     return <span aria-hidden={true}>{initials}</span>
   }
 
-  return <Icon svg={PersonalLoginIcon} size="level-6" />
+  return <span />
 }
 
 export type AvatarProps = {
