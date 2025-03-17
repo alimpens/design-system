@@ -3,11 +3,9 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { ChevronLeftIcon, ChevronRightIcon } from '@aram-limpens/design-system-react-icons-test'
 import clsx from 'clsx'
 import { forwardRef, useMemo, useState } from 'react'
 import type { ForwardedRef, HTMLAttributes } from 'react'
-import { Icon } from '../Icon/Icon'
 
 export type PaginationProps = {
   /**
@@ -123,7 +121,6 @@ export const Pagination = forwardRef(
               onClick={onPrevious}
               type="button"
             >
-              <Icon svg={ChevronLeftIcon} size="level-5" />
               vorige
             </button>
           </li>
@@ -163,7 +160,6 @@ export const Pagination = forwardRef(
               type="button"
             >
               volgende
-              <Icon svg={ChevronRightIcon} size="level-5" />
             </button>
           </li>
         </ol>

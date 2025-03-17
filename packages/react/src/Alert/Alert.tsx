@@ -3,13 +3,11 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { AlertIcon, CheckmarkIcon, InfoIcon } from '@aram-limpens/design-system-react-icons-test'
 import clsx from 'clsx'
 import { forwardRef } from 'react'
 import type { ForwardedRef, HTMLAttributes, PropsWithChildren } from 'react'
 import { Heading } from '../Heading'
 import type { HeadingProps } from '../Heading'
-import { Icon } from '../Icon'
 import { IconButton } from '../IconButton'
 
 export type AlertProps = {
@@ -27,13 +25,6 @@ export type AlertProps = {
   /** The title for the alert. */
   title?: string
 } & PropsWithChildren<HTMLAttributes<HTMLDivElement>>
-
-const iconSvgBySeverity = {
-  error: AlertIcon,
-  info: InfoIcon,
-  success: CheckmarkIcon,
-  warning: AlertIcon,
-}
 
 export const Alert = forwardRef(
   (
@@ -54,9 +45,7 @@ export const Alert = forwardRef(
 
     return (
       <Tag {...restProps} ref={ref} className={clsx('ams-alert', severity && `ams-alert--${severity}`, className)}>
-        <div className="ams-alert__icon">
-          <Icon size={alertSize} svg={iconSvgBySeverity[severity]} />
-        </div>
+        <div className="ams-alert__icon"></div>
         <div className="ams-alert__content">
           {title && (
             <Heading level={headingLevel} size="level-4">

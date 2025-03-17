@@ -3,13 +3,11 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { ChevronDownIcon } from '@aram-limpens/design-system-react-icons-test'
 import clsx from 'clsx'
 import { forwardRef, useContext, useId, useState } from 'react'
 import type { ForwardedRef, HTMLAttributes, PropsWithChildren } from 'react'
 import AccordionContext from './AccordionContext'
 import { getHeadingElement } from '../Heading/getHeadingElement'
-import { Icon } from '../Icon/Icon'
 
 export type AccordionSectionProps = {
   label: string
@@ -41,7 +39,6 @@ export const AccordionSection = forwardRef(
             type="button"
           >
             {label}
-            <Icon svg={ChevronDownIcon} size="level-5" />
           </button>
         </HeadingX>
         {section ? (

@@ -13,7 +13,7 @@ import {
   LocationIcon,
   PassportIcon,
   TrashBinIcon,
-} from '@aram-limpens/design-system-react-icons-test'
+} from '@aram-limpens/design-system-react-icons'
 import type { Meta, StoryObj } from '@storybook/react'
 import { exampleUnorderedList } from '../shared/exampleContent'
 

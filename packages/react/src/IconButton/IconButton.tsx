@@ -3,11 +3,9 @@
  * Copyright Gemeente Amsterdam
  */
 
-import { CloseIcon } from '@aram-limpens/design-system-react-icons-test'
 import clsx from 'clsx'
 import { forwardRef } from 'react'
 import type { ButtonHTMLAttributes, ForwardedRef } from 'react'
-import { Icon } from '../Icon'
 import { VisuallyHidden } from '../VisuallyHidden'
 
 export type IconButtonProps = {
@@ -18,10 +16,7 @@ export type IconButtonProps = {
 } & ButtonHTMLAttributes<HTMLButtonElement>
 
 export const IconButton = forwardRef(
-  (
-    { className, label, onBackground, size = 'level-5', svg = CloseIcon, ...restProps }: IconButtonProps,
-    ref: ForwardedRef<HTMLButtonElement>,
-  ) => (
+  ({ className, label, onBackground, ...restProps }: IconButtonProps, ref: ForwardedRef<HTMLButtonElement>) => (
     <button
       {...restProps}
       ref={ref}
@@ -33,7 +28,6 @@ export const IconButton = forwardRef(
       )}
     >
       <VisuallyHidden>{label}</VisuallyHidden>
-      <Icon svg={svg} size={size} square />
     </button>
   ),
 )

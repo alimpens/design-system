@@ -73,7 +73,7 @@ If you need to link your local version of this library (to test your unpublished
 - Go to the root of the project in which you want to consume the packages
 - Run `npm link <package-name>`.
   If you want to link multiple packages, separate the package names with a space.
-  For example: `npm link @aram-limpens/design-system-tokens @aram-limpens/design-system-assets-test @aram-limpens/design-system-react @aram-limpens/design-system-react-icons-test`.
+  For example: `npm link @aram-limpens/design-system-tokens @aram-limpens/design-system-assets-test @aram-limpens/design-system-react @aram-limpens/design-system-react-icons`.
   Be careful: you have to link all packages in the same namespace together.
   Doing it one at a time will only link the last one.
   <!-- TODO: is there a workaround for this? -->

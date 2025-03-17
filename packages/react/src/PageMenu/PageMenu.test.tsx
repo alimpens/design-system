@@ -1,4 +1,4 @@
-import { LoginIcon } from '@aram-limpens/design-system-react-icons-test'
+import { LoginIcon } from '@aram-limpens/design-system-react-icons'
 import { render } from '@testing-library/react'
 import { createRef } from 'react'
 import { PageMenu } from './PageMenu'
