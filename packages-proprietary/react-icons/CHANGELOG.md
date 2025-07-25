@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/alimpens/design-system/compare/design-system-react-icons-v1.0.0...design-system-react-icons-v2.0.0) (2025-07-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Test major releases
+* Test major releases
+* Test major releases
+
+### Features
+
+* Test major releases ([d20ce78](https://github.com/alimpens/design-system/commit/d20ce789b8ec88582d01e485bf5e2f2a0e95dd87))
+* Test major releases ([d20ce78](https://github.com/alimpens/design-system/commit/d20ce789b8ec88582d01e485bf5e2f2a0e95dd87))
+* Test major releases ([6232558](https://github.com/alimpens/design-system/commit/6232558d80c2812684d8955339e6f9f553597598))
+
 ## [1.0.0](https://github.com/alimpens/design-system/compare/design-system-react-icons-v1.0.0...design-system-react-icons-v1.0.0) (2025-07-25)
 
 
