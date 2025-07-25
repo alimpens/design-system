@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0](https://github.com/Amsterdam/design-system/compare/design-system-assets-v0.3.0...design-system-assets-v1.0.0) (2025-05-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update icon library with many redesigned and new icons ([#1809](https://github.com/Amsterdam/design-system/issues/1809)) ([40cc19b](https://github.com/Amsterdam/design-system/commit/40cc19b41021e257c0fe1d4aa741480b2484156d))
+
+
+### Features
+
+* Update icon library with many redesigned and new icons ([#1809](https://github.com/Amsterdam/design-system/issues/1809)) ([40cc19b](https://github.com/Amsterdam/design-system/commit/40cc19b41021e257c0fe1d4aa741480b2484156d))
+
+
+### Miscellaneous Chores
+
+* Release 1.0.0 ([247375d](https://github.com/Amsterdam/design-system/commit/247375df3a0dfd5109726aaf2bb71b56ef62fdd1))
+
 ## [0.3.0](https://github.com/Amsterdam/design-system/compare/design-system-assets-v0.2.2...design-system-assets-v0.3.0) (2025-01-10)
 
 ### ⚠ BREAKING CHANGES
@@ -42,18 +59,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * Logo Museum Weesp  ([#1088](https://github.com/Amsterdam/design-system/issues/1088)) ([da1b780](https://github.com/Amsterdam/design-system/commit/da1b7808b5bcf17acb93fe46531a9722814e9256))
 
-## [0.1.7](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-assets@0.1.6...@aram-limpens/design-system-assets@0.1.7) (2024-01-31)
+## [0.1.7](https://github.com/Amsterdam/design-system/compare/@amsterdam/design-system-assets@0.1.6...@amsterdam/design-system-assets@0.1.7) (2024-01-31)
 
-**Note:** Version bump only for package @aram-limpens/design-system-assets
+**Note:** Version bump only for package @amsterdam/design-system-assets
 
-## [0.1.6](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-assets@0.1.5...@aram-limpens/design-system-assets@0.1.6) (2023-12-22)
+## [0.1.6](https://github.com/Amsterdam/design-system/compare/@amsterdam/design-system-assets@0.1.5...@amsterdam/design-system-assets@0.1.6) (2023-12-22)
 
-**Note:** Version bump only for package @aram-limpens/design-system-assets
+**Note:** Version bump only for package @amsterdam/design-system-assets
 
-## [0.1.5](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-assets@0.1.4...@aram-limpens/design-system-assets@0.1.5) (2023-12-01)
+## [0.1.5](https://github.com/Amsterdam/design-system/compare/@amsterdam/design-system-assets@0.1.4...@amsterdam/design-system-assets@0.1.5) (2023-12-01)
 
-**Note:** Version bump only for package @aram-limpens/design-system-assets
+**Note:** Version bump only for package @amsterdam/design-system-assets
 
-## [0.1.4](https://github.com/Amsterdam/design-system/compare/@aram-limpens/design-system-assets@0.1.3...@aram-limpens/design-system-assets@0.1.4) (2023-11-27)
+## [0.1.4](https://github.com/Amsterdam/design-system/compare/@amsterdam/design-system-assets@0.1.3...@amsterdam/design-system-assets@0.1.4) (2023-11-27)
 
-**Note:** Version bump only for package @aram-limpens/design-system-assets
+**Note:** Version bump only for package @amsterdam/design-system-assets

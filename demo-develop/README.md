@@ -7,13 +7,13 @@ Use it to include the correct fonts, icons or logos in your website or applicati
 
 ## Installation
 
-Install this package by itself if you want or need to reference assets directly in your project.
+Install this package by itself to reference assets directly in your project.
 
-Note that our [React components](https://www.npmjs.com/package/@aram-limpens/design-system-react) provide more functionality for some of the assets and use them automatically.
+Note that our [React components](https://www.npmjs.com/package/@amsterdam/design-system-react) provide more functionality for some of the assets and use them automatically.
 You should use that package if your application uses React.
 
 ```sh
-npm install @aram-limpens/design-system-assets
+npm install @amsterdam/design-system-assets
 ```
 
 ## Usage
@@ -24,12 +24,12 @@ The Design System handbook helps using [a favicon](https://designsystem.amsterda
 
 ### Font files
 
-The package contains our Amsterdam Sans font in OpenType format (.otf) and Web Open Format Font (.woff).
+The package contains our Amsterdam Sans font in Embedded OpenType format (.eot) and Web Open Format Font (.woff and .woff2).
 Import our stylesheet to make all of them available to your project.
 
 <!-- prettier-ignore -->
 ```ts
-import "@aram-limpens/design-system-assets/font/index.css"
+import "@amsterdam/design-system-assets/font/index.css"
 ```
 
 The Design System Handbook offers [more guidance in using the font](https://designsystem.amsterdam/?path=/docs/brand-assets-font--docs).
