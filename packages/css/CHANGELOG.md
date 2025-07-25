@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/alimpens/design-system/compare/design-system-css-v2.0.0...design-system-css-v3.0.0) (2025-07-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Breaking change van CSS package
+* Breaking change van CSS package
+* Breaking change van CSS package
+
+### Features
+
+* Breaking change van CSS package ([bafde51](https://github.com/alimpens/design-system/commit/bafde512c94106d34fd02367063805f8f61a1365))
+* Breaking change van CSS package ([bafde51](https://github.com/alimpens/design-system/commit/bafde512c94106d34fd02367063805f8f61a1365))
+* Breaking change van CSS package ([fb3b60e](https://github.com/alimpens/design-system/commit/fb3b60e2d32a6065da9ed63ae2ef5a658bd1c62f))
+
 ## [2.0.0](https://github.com/alimpens/design-system/compare/design-system-css-v1.0.0...design-system-css-v2.0.0) (2025-07-25)
 
 
