@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.0.0](https://github.com/alimpens/design-system/compare/design-system-css-v8.0.0...design-system-css-v9.0.0) (2025-10-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* Nog 1 test
+
+### Features
+
+* Nog 1 test ([ba8cfc4](https://github.com/alimpens/design-system/commit/ba8cfc409025bbe08f71751e7353119ebfedd9ff))
+
 ## [8.0.0](https://github.com/alimpens/design-system/compare/design-system-css-v7.0.0...design-system-css-v8.0.0) (2025-10-31)
 
 
