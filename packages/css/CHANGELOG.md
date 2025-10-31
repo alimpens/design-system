@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.0](https://github.com/alimpens/design-system/compare/design-system-css-v7.0.0...design-system-css-v8.0.0) (2025-10-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* Trusted pub test zoveel
+
+### Features
+
+* Trusted pub test zoveel ([9b103c6](https://github.com/alimpens/design-system/commit/9b103c61228e33528d21845621a027e9b1396233))
+
 ## [7.0.0](https://github.com/alimpens/design-system/compare/design-system-css-v6.0.0...design-system-css-v7.0.0) (2025-10-31)
 
 
