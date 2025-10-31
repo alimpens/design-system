@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/alimpens/design-system/compare/design-system-react-v2.0.0...design-system-react-v3.0.0) (2025-10-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* Test 2 trusted publisher
+
+### Features
+
+* Test 2 trusted publisher ([5633046](https://github.com/alimpens/design-system/commit/5633046aa07d07c7fa1282639d9fe1d2769f9e5e))
+
 ## [2.0.0](https://github.com/alimpens/design-system/compare/design-system-react-v1.0.0...design-system-react-v2.0.0) (2025-07-25)
 
 
