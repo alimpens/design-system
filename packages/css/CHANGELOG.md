@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.0](https://github.com/alimpens/design-system/compare/design-system-css-v4.0.0...design-system-css-v5.0.0) (2025-10-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* trusted publisher test
+
+### Features
+
+* trusted publisher test ([3bd1c06](https://github.com/alimpens/design-system/commit/3bd1c06b9c19d4d45e59ec292de051d832af5d4e))
+
 ## [4.0.0](https://github.com/alimpens/design-system/compare/design-system-css-v3.0.0...design-system-css-v4.0.0) (2025-07-25)
 
 
